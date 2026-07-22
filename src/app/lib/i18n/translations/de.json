@@ -8,8 +8,8 @@
     "parser": "Parser"
   },
   "hero": {
-    "titleLine1": "Erstellen Sie einen sauberen, professionellen",
-    "titleLine2": "Lebenslauf in Minuten",
+    "titleLine1": "Lebenslauf-Generator: Erstellen Sie einen",
+    "titleLine2": "professionellen Lebenslauf in Minuten",
     "subtitle": "Kostenlos, Open Source, Privacy-First. Kein Konto nötig — Ihre Daten bleiben im Browser.",
     "cta": "Loslegen",
     "noSignup": "Keine Registrierung erforderlich",
@@ -313,7 +313,7 @@
     "name": "Max Mustermann",
     "summary": "Softwareentwickler mit Leidenschaft für außergewöhnliche Produkte, die Menschen lieben",
     "phone": "123-456-7890",
-    "location": "NYC, NY",
+    "location": "Berlin, Deutschland",
     "url": "linkedin.com/in/max-mustermann",
     "work1Company": "ABC Unternehmen",
     "work1Title": "Softwareentwickler",
