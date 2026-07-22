@@ -49,21 +49,12 @@ function getLocaleFromPath(): Locale {
 }
 
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocale] = useState<Locale>(() => getLocaleFromPath());
-
-  useEffect(() => {
-    const savedLocale = localStorage.getItem("locale") as Locale | null;
-    if (savedLocale && (LOCALES as Record<string, unknown>)[savedLocale]) {
-      setLocale(savedLocale);
+  const [locale, setLocale] = useState<Locale>(() => {
+    if (typeof window !== "undefined" && (window as never as Record<string, string>).__INITIAL_LOCALE__) {
+      return (window as never as Record<string, string>).__INITIAL_LOCALE__ as Locale;
     }
-  }, []);
-
-  useEffect(() => {
-    const localeFromPath = getLocaleFromPath();
-    if (localeFromPath !== locale) {
-      setLocale(localeFromPath);
-    }
-  }, [locale]);
+    return getLocaleFromPath();
+  });
 
   const t = useCallback(
     (key: string): string => {

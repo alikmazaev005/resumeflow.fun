@@ -9,7 +9,7 @@ export default function LocaleLayout({
     <>
       <script
         dangerouslySetInnerHTML={{
-          __html: `document.documentElement.lang="${params.locale}"`,
+          __html: `document.documentElement.lang="${params.locale}";window.__INITIAL_LOCALE__="${params.locale}";`,
         }}
       />
       {children}
