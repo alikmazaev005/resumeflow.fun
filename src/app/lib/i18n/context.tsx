@@ -76,8 +76,15 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const handleSetLocale = useCallback((newLocale: Locale) => {
     setLocale(newLocale);
     localStorage.setItem("locale", newLocale);
-    window.location.pathname = window.location.pathname.replace(/^\/[a-z]{2}/, `/${newLocale}`);
-  }, [locale]);
+    const path = window.location.pathname;
+    const hasLocale = /^\/[a-z]{2}(\/|$)/.test(path);
+    if (hasLocale) {
+      window.location.pathname = path.replace(/^\/[a-z]{2}/, `/${newLocale}`);
+    } else if (newLocale !== "en") {
+      const suffix = path === "/" ? "" : path;
+      window.location.pathname = `/${newLocale}${suffix}`;
+    }
+  }, []);
 
   return (
     <I18nContext.Provider value={{ locale, setLocale: handleSetLocale, t }}>
