@@ -1,0 +1,26 @@
+https://resumeflow.fun/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# HTML pages: no-cache to ensure updates are picked up quickly
+/*.html
+  Cache-Control: public, no-cache, must-revalidate
+
+# Static assets with content hash in filename: cache forever
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# SVG icons
+*.svg
+  Cache-Control: public, max-age=86400
+
+# Sitemap and robots
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+/robots.txt
+  Cache-Control: public, max-age=3600

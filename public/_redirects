@@ -1,0 +1,2 @@
+# Redirect www to non-www
+https://www.resumeflow.fun/* https://resumeflow.fun/:splat 301

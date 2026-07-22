@@ -1,9 +1,40 @@
-# Robots.txt for ResumeFlow
 User-agent: *
 Allow: /
+Allow: /ru/
+Allow: /de/
+Allow: /fr/
+Allow: /es/
+Allow: /zh/
+Allow: /resume-builder
+Allow: /ru/resume-builder
+Allow: /de/resume-builder
+Allow: /fr/resume-builder
+Allow: /es/resume-builder
+Allow: /zh/resume-builder
+Allow: /resume-parser
+Allow: /ru/resume-parser
+Allow: /de/resume-parser
+Allow: /fr/resume-parser
+Allow: /es/resume-parser
+Allow: /zh/resume-parser
+Allow: /privacy
+Allow: /ru/privacy
+Allow: /de/privacy
+Allow: /fr/privacy
+Allow: /es/privacy
+Allow: /zh/privacy
+Allow: /terms
+Allow: /ru/terms
+Allow: /de/terms
+Allow: /fr/terms
+Allow: /es/terms
+Allow: /zh/terms
 
-# Disallow intermediate import page (no SEO value)
 Disallow: /resume-import
+Disallow: /ru/resume-import
+Disallow: /de/resume-import
+Disallow: /fr/resume-import
+Disallow: /es/resume-import
+Disallow: /zh/resume-import
 
-# Sitemap
 Sitemap: https://resumeflow.fun/sitemap.xml

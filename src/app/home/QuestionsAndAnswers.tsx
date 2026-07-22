@@ -1,5 +1,6 @@
 "use client";
 import { useT } from "lib/i18n/context";
+import { FAQSchema } from "components/seo/FAQSchema";
 
 export const QuestionsAndAnswers = () => {
   const t = useT();
@@ -43,7 +44,9 @@ export const QuestionsAndAnswers = () => {
   ];
 
   return (
-    <section className="mx-auto max-w-3xl divide-y divide-gray-300 lg:mt-4 lg:px-2">
+    <>
+      <FAQSchema />
+      <section className="mx-auto max-w-3xl divide-y divide-gray-300 lg:mt-4 lg:px-2">
       <h2 className="text-center text-3xl font-bold">{t("qa.title")}</h2>
       <div className="mt-6 divide-y divide-gray-300">
         {QAS.map(({ question, answer }) => (
@@ -56,5 +59,6 @@ export const QuestionsAndAnswers = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };

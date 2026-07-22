@@ -21,9 +21,25 @@ const softwareSchema = {
   "url": "https://resumeflow.fun",
   "author": {
     "@type": "Organization",
-    "name": "ResumeFlow",
+    "name": "ResumeFlow Studio",
   },
   "license": "https://github.com/xitanggg/open-resume/blob/main/LICENSE",
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ResumeFlow Studio",
+  "url": "https://resumeflow.fun",
+  "logo": "https://resumeflow.fun/logo.svg",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@resumeflow.fun",
+    "contactType": "customer support",
+  },
+  "sameAs": [
+    "https://github.com/alikmazaev005/resumeflow.fun",
+  ],
 };
 
 export const metadata = {
@@ -31,6 +47,18 @@ export const metadata = {
   description:
     "Free resume builder with built-in ATS parser. No signup, local-only storage, open source. Export clean PDFs that parse correctly in Greenhouse, Lever, Workday.",
   icons: [{ rel: "icon", url: "/favicon.svg", type: "image/svg+xml" }],
+  alternates: {
+    canonical: "https://resumeflow.fun/",
+    languages: {
+      "x-default": "https://resumeflow.fun/",
+      en: "https://resumeflow.fun/",
+      ru: "https://resumeflow.fun/ru",
+      de: "https://resumeflow.fun/de",
+      fr: "https://resumeflow.fun/fr",
+      es: "https://resumeflow.fun/es",
+      zh: "https://resumeflow.fun/zh",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -46,6 +74,12 @@ export default function RootLayout({
           type="application/ld+json"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
+        />
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body>

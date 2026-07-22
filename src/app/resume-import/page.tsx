@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   robots: "noindex, follow",
   alternates: {
     canonical: "https://resumeflow.fun/resume-import",
+    languages: {
+      "x-default": "https://resumeflow.fun/resume-import",
+      en: "https://resumeflow.fun/resume-import",
+      ru: "https://resumeflow.fun/ru/resume-import",
+      de: "https://resumeflow.fun/de/resume-import",
+      fr: "https://resumeflow.fun/fr/resume-import",
+      es: "https://resumeflow.fun/es/resume-import",
+      zh: "https://resumeflow.fun/zh/resume-import",
+    },
   },
 };
 
