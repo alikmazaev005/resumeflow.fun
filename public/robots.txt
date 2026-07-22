@@ -1,0 +1,9 @@
+# Robots.txt for ResumeFlow
+User-agent: *
+Allow: /
+
+# Disallow intermediate import page (no SEO value)
+Disallow: /resume-import
+
+# Sitemap
+Sitemap: https://resumeflow.fun/sitemap.xml

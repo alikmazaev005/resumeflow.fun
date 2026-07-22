@@ -12,6 +12,7 @@ import addPdfSrc from "public/assets/add-pdf.svg";
 import Image from "next/image";
 import { cx } from "lib/cx";
 import { deepClone } from "lib/deep-clone";
+import { useT } from "lib/i18n/context";
 
 const defaultFileState = {
   name: "",
@@ -32,6 +33,7 @@ export const ResumeDropzone = ({
   const [isHoveredOnDropzone, setIsHoveredOnDropzone] = useState(false);
   const [hasNonPdfFile, setHasNonPdfFile] = useState(false);
   const router = useRouter();
+  const t = useT();
 
   const hasFile = Boolean(file.name);
 
@@ -119,7 +121,7 @@ export const ResumeDropzone = ({
           <Image
             src={addPdfSrc}
             className="mx-auto h-14 w-14"
-            alt="Add pdf"
+            alt={t("import.dropzoneAltPdf")}
             aria-hidden="true"
             priority
           />
@@ -132,11 +134,11 @@ export const ResumeDropzone = ({
                 !playgroundView && "text-lg font-semibold"
               )}
             >
-              Browse a pdf file or drop it here
+              {t("import.dropzoneBrowse")}
             </p>
             <p className="flex text-sm text-gray-500">
               <LockClosedIcon className="mr-1 mt-1 h-3 w-3 text-gray-400" />
-              File data is used locally and never leaves your browser
+              {t("import.dropzonePrivacy")}
             </p>
           </>
         ) : (
@@ -147,7 +149,7 @@ export const ResumeDropzone = ({
             <button
               type="button"
               className="outline-theme-blue rounded-md p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-500"
-              title="Remove file"
+              title={t("import.dropzoneRemove")}
               onClick={onRemove}
             >
               <XMarkIcon className="h-6 w-6" />
@@ -163,7 +165,7 @@ export const ResumeDropzone = ({
                   playgroundView ? "border" : "bg-primary"
                 )}
               >
-                Browse file
+                {t("import.dropzoneBrowseFile")}
                 <input
                   type="file"
                   className="sr-only"
@@ -172,7 +174,7 @@ export const ResumeDropzone = ({
                 />
               </label>
               {hasNonPdfFile && (
-                <p className="mt-6 text-red-400">Only pdf file is supported</p>
+                <p className="mt-6 text-red-400">{t("import.dropzoneError")}</p>
               )}
             </>
           ) : (
@@ -183,12 +185,11 @@ export const ResumeDropzone = ({
                   className="btn-primary"
                   onClick={onImportClick}
                 >
-                  Import and Continue <span aria-hidden="true">→</span>
+                  {t("import.dropzoneImport")} <span aria-hidden="true">→</span>
                 </button>
               )}
               <p className={cx(" text-gray-500", !playgroundView && "mt-6")}>
-                Note: {!playgroundView ? "Import" : "Parser"} works best on
-                single column resume
+                Note: {t(!playgroundView ? "import.dropzoneNoteImport" : "import.dropzoneNoteParser")}
               </p>
             </>
           )}

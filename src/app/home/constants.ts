@@ -12,7 +12,7 @@ export const END_HOME_RESUME: Resume = {
     name: "John Doe",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
-    email: "hello@openresume.com",
+    email: "hello@resumeflow.fun",
     phone: "123-456-7890",
     location: "NYC, NY",
     url: "linkedin.com/in/john-doe",
@@ -63,7 +63,7 @@ export const END_HOME_RESUME: Resume = {
   ],
   projects: [
     {
-      project: "OpenResume",
+      project: "ResumeFlow",
       date: "Spring 2023",
       descriptions: [
         "Created and launched a free resume builder web app that allows thousands of users to create professional resume easily and land their dream jobs",
@@ -88,6 +88,85 @@ export const END_HOME_RESUME: Resume = {
     descriptions: [],
   },
 };
+
+export function getDemoEmail(): string {
+  return "hello@resumeflow.fun";
+}
+
+export function getTranslatedEndResume(t: (key: string) => string): Resume {
+  return {
+    profile: {
+      name: t("demo.name"),
+      summary: t("demo.summary"),
+      email: getDemoEmail(),
+      phone: t("demo.phone"),
+      location: t("demo.location"),
+      url: t("demo.url"),
+    },
+    workExperiences: [
+      {
+        company: t("demo.work1Company"),
+        jobTitle: t("demo.work1Title"),
+        date: t("demo.work1Date"),
+        descriptions: [
+          t("demo.work1Desc1"),
+          t("demo.work1Desc2"),
+          t("demo.work1Desc3"),
+        ],
+      },
+      {
+        company: t("demo.work2Company"),
+        jobTitle: t("demo.work2Title"),
+        date: t("demo.work2Date"),
+        descriptions: [
+          t("demo.work2Desc1"),
+          t("demo.work2Desc2"),
+          t("demo.work2Desc3"),
+        ],
+      },
+      {
+        company: t("demo.work3Company"),
+        jobTitle: t("demo.work3Title"),
+        date: t("demo.work3Date"),
+        descriptions: [t("demo.work3Desc1"), t("demo.work3Desc2")],
+      },
+    ],
+    educations: [
+      {
+        school: t("demo.eduSchool"),
+        degree: t("demo.eduDegree"),
+        date: t("demo.eduDate"),
+        gpa: t("demo.eduGpa"),
+        descriptions: [
+          t("demo.eduDesc1"),
+          t("demo.eduDesc2"),
+          t("demo.eduDesc3"),
+        ],
+      },
+    ],
+    projects: [
+      {
+        project: t("demo.projectName"),
+        date: t("demo.projectDate"),
+        descriptions: [t("demo.projectDesc1")],
+      },
+    ],
+    skills: {
+      featuredSkills: [
+        { skill: "HTML", rating: 4 },
+        { skill: "CSS", rating: 4 },
+        { skill: "Python", rating: 3 },
+        { skill: "TypeScript", rating: 3 },
+        { skill: "React", rating: 3 },
+        { skill: "C++", rating: 2 },
+      ],
+      descriptions: [t("demo.techSkills"), t("demo.softSkills")],
+    },
+    custom: {
+      descriptions: [],
+    },
+  };
+}
 
 export const START_HOME_RESUME: Resume = {
   profile: deepClone(initialProfile),

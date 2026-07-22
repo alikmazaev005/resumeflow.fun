@@ -16,8 +16,10 @@ import {
 import { useAppDispatch, useAppSelector } from "lib/redux/hooks";
 import type { FontFamily } from "components/fonts/constants";
 import { Cog6ToothIcon } from "@heroicons/react/24/outline";
+import { useT } from "lib/i18n/context";
 
 export const ThemeForm = () => {
+  const t = useT();
   const settings = useAppSelector(selectSettings);
   const { fontSize, fontFamily, documentSize } = settings;
   const themeColor = settings.themeColor || DEFAULT_THEME_COLOR;
@@ -33,12 +35,12 @@ export const ThemeForm = () => {
         <div className="flex items-center gap-2">
           <Cog6ToothIcon className="h-6 w-6 text-gray-600" aria-hidden="true" />
           <h1 className="text-lg font-semibold tracking-wide text-gray-900 ">
-            Resume Setting
+            {t("form.theme.title")}
           </h1>
         </div>
         <div>
           <InlineInput
-            label="Theme Color"
+            label={t("form.theme.themeColor")}
             name="themeColor"
             value={settings.themeColor}
             placeholder={DEFAULT_THEME_COLOR}
@@ -64,7 +66,7 @@ export const ThemeForm = () => {
           </div>
         </div>
         <div>
-          <InputGroupWrapper label="Font Family" />
+          <InputGroupWrapper label={t("form.theme.fontFamily")} />
           <FontFamilySelectionsCSR
             selectedFontFamily={fontFamily}
             themeColor={themeColor}
@@ -73,7 +75,7 @@ export const ThemeForm = () => {
         </div>
         <div>
           <InlineInput
-            label="Font Size (pt)"
+            label={t("form.theme.fontSize")}
             name="fontSize"
             value={fontSize}
             placeholder="11"
@@ -87,7 +89,7 @@ export const ThemeForm = () => {
           />
         </div>
         <div>
-          <InputGroupWrapper label="Document Size" />
+          <InputGroupWrapper label={t("form.theme.documentSize")} />
           <DocumentSizeSelections
             themeColor={themeColor}
             selectedDocumentSize={documentSize}

@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "ariaHeader": "网站头部",
+    "ariaNav": "网站导航栏",
+    "logoSrLabel": "ResumeFlow",
+    "logoAlt": "ResumeFlow 标志",
+    "builder": "简历制作",
+    "parser": "简历解析"
+  },
+  "hero": {
+    "titleLine1": "几分钟内创建",
+    "titleLine2": "简洁专业的简历",
+    "subtitle": "免费、开源、隐私优先。无需账号 —— 数据留在您的浏览器中。",
+    "cta": "开始制作",
+    "noSignup": "无需注册",
+    "existingResume": "已有简历？用",
+    "parserLink": "简历解析器"
+  },
+  "steps": {
+    "title": "工作原理",
+    "step1Title": "导入或从头开始",
+    "step1Text": "上传 PDF 自动填充字段，或从零创建",
+    "step2Title": "预览并编辑",
+    "step2Text": "即时查看排版结果 —— 调整内容、字体、间距",
+    "step3Title": "下载并投递",
+    "step3Text": "导出通过 ATS 检查的精美 PDF"
+  },
+  "features": {
+    "alt": "ResumeFlow 功能",
+    "freeTitle": "永久免费",
+    "freeText": "无订阅、无锁定功能、无推销。所有模板、字体、导出选项均免费。",
+    "usTitle": "默认适配 ATS",
+    "usText": "单栏布局、标准章节顺序、无照片无图形 —— 一切结构化以适配 Greenhouse、Lever、Workday 等主流 ATS。",
+    "privacyTitle": "本地优先隐私",
+    "privacyText": "您的简历数据绝不离开浏览器。存储在 localStorage，无服务器、无账号、无追踪。",
+    "openSourceTitle": "开源",
+    "openSourceText": "基于 OpenResume 项目构建。完整源代码在 GitHub —— 可审计、可 Fork、可贡献。",
+    "openSourceLink": "在 GitHub 查看"
+  },
+  "testimonials": {
+    "title": "为什么选择 ResumeFlow",
+    "metrics": [
+      {
+        "value": "数千份",
+        "label": "简历已创建"
+      },
+      {
+        "value": "ATS-ready",
+        "label": "默认优化"
+      },
+      {
+        "value": "0",
+        "label": "数据上传至服务器"
+      }
+    ],
+    "personas": [
+      {
+        "icon": "graduation-cap",
+        "title": "学生与应届生",
+        "description": "首份简历、实习、初级岗位 — 干净格式，顺利通过所有 ATS"
+      },
+      {
+        "icon": "briefcase",
+        "title": "转行者",
+        "titleHighlight": "IT / 技术",
+        "description": "在解析器友好的布局中突出可迁移技能、项目与证书"
+      },
+      {
+        "icon": "user-check",
+        "title": "资深专业人士",
+        "description": "15+ 年经验浓缩为可快速扫描的简历 — 5 分钟搞定"
+      }
+    ],
+    "parserCTA": {
+      "text": "已有简历？",
+      "linkText": "去解析器测试 →",
+      "href": "/resume-parser"
+    }
+  },
+  "qa": {
+    "title": "常见问题",
+    "q1": "什么是简历制作工具？它和模板有何不同？",
+    "a1p1": "模板（Word、Google Docs）给空白结构 —— 您手动排版每个章节、调间距、修对齐。制作工具自动处理布局：您输入内容，它生成一致、可打印的 PDF。",
+    "a1p2": "ResumeFlow 更进一步：强制 ATS 友好结构（单栏、标准标题、无照片），一键切换字体和间距，内置解析器让您投递前验证 ATS 如何读取您的文件。",
+    "q2": "ResumeFlow 与其他免费工具（如 Reactive Resume、FlowCV）有何不同？",
+    "a2p1": "多数工具优化视觉灵活性 —— 多栏、图形、配色主题。ResumeFlow 优化解析性：",
+    "a2p1After": "这就是我们的不同之处：",
+    "a2Feature1Title": "1. 严格 ATS-first 设计",
+    "a2Feature1Text": "仅单栏。标准章节顺序。无照片字段。无干扰解析器的装饰元素。每个默认选择均经 Greenhouse、Lever、Workday 解析行为验证。",
+    "a2Feature2Title": "2. 真正的仅本地存储",
+    "a2Feature2Text": "无账号创建、无云同步、无简历内容分析。数据驻留浏览器 localStorage。首次加载后甚至可离线使用。",
+    "q3": "ResumeFlow 如何处理我的简历数据？",
+    "a3p1": "您在制作工具中输入的所有数据，均在您的浏览器本地处理和存储 —— 绝不发送、不保存至任何服务器。这意味着没有任何人（包括我们）能访问您的简历内容。您可关闭标签页稍后返回 —— 数据保留在设备上，直到您自行删除或清除浏览器缓存。信息离开浏览器的唯一时刻，是您点击「下载 PDF」时。",
+    "q4": "如果我已有简历，解析器能如何帮助？",
+    "a4p1": "若您已有 PDF 或 Word 简历，无需从头重写 —— 上传至解析器，服务将展示大多数大公司招聘使用的申请人跟踪系统 (ATS) 如何读取它。解析器标记肉眼不可见但阻碍机器人正确读取您经历和技能的格式问题 —— 如表格、多栏、非标准字体，这些可能导致简历在招聘人员看到前就被拒绝。"
+  },
+  "import": {
+    "headingNew": "从现有简历导入数据",
+    "or": "或",
+    "noResumeHeading": "还没有简历？",
+    "createFromScratch": "从头创建",
+    "returningHeading": "浏览器中保存有上次会话的数据",
+    "continueWhereLeftOff": "继续上次编辑",
+    "overrideHeading": "用新简历覆盖数据",
+    "dropzoneBrowse": "浏览 PDF 文件或拖拽至此",
+    "dropzonePrivacy": "文件数据仅本地使用，绝不离开您的浏览器",
+    "dropzoneRemove": "移除文件",
+    "dropzoneBrowseFile": "浏览文件",
+    "dropzoneError": "仅支持 PDF 文件",
+    "dropzoneImport": "导入并继续",
+    "dropzoneNoteImport": "注意：导入在单栏简历上效果最佳",
+    "dropzoneNoteParser": "注意：解析器在单栏简历上效果最佳",
+    "dropzoneAltPdf": "添加 PDF"
+  },
+  "form": {
+    "profile": {
+      "nameLabel": "姓名",
+      "namePlaceholder": "张三",
+      "summaryLabel": "求职目标",
+      "summaryPlaceholder": "致力于让优质教育免费惠及每个人的创业者和教育工作者",
+      "emailLabel": "邮箱",
+      "emailPlaceholder": "hello@khanacademy.org",
+      "phoneLabel": "电话",
+      "phonePlaceholder": "(123)456-7890",
+      "websiteLabel": "网站",
+      "websitePlaceholder": "linkedin.com/in/khanacademy",
+      "locationLabel": "所在地",
+      "locationPlaceholder": "北京市"
+    },
+    "work": {
+      "addButton": "添加工作",
+      "deleteTooltip": "删除工作",
+      "companyLabel": "公司",
+      "companyPlaceholder": "ABC 科技有限公司",
+      "jobTitleLabel": "职位",
+      "jobTitlePlaceholder": "软件工程师",
+      "dateLabel": "日期",
+      "datePlaceholder": "2022年6月 - 至今",
+      "descriptionLabel": "描述",
+      "descriptionPlaceholder": "项目符号"
+    },
+    "education": {
+      "addButton": "添加学校",
+      "deleteTooltip": "删除学校",
+      "schoolLabel": "学校",
+      "schoolPlaceholder": "清华大学",
+      "dateLabel": "日期",
+      "datePlaceholder": "2018年5月",
+      "degreeLabel": "学位与专业",
+      "degreePlaceholder": "计算机工程理学学士",
+      "gpaLabel": "GPA",
+      "gpaPlaceholder": "3.81",
+      "additionalLabel": "附加信息（可选）",
+      "additionalPlaceholder": "自由段落空间，列出额外活动、课程、奖项等"
+    },
+    "project": {
+      "addButton": "添加项目",
+      "deleteTooltip": "删除项目",
+      "nameLabel": "项目名称",
+      "namePlaceholder": "ResumeFlow",
+      "dateLabel": "日期",
+      "datePlaceholder": "2022年冬季",
+      "descriptionLabel": "描述",
+      "descriptionPlaceholder": "项目符号"
+    },
+    "skills": {
+      "listLabel": "技能列表",
+      "listPlaceholder": "项目符号",
+      "featuredLabel": "重点技能（可选）",
+      "featuredText": "重点技能为可选，用于突出核心技能，圆圈越多代表熟练度越高。",
+      "featuredPlaceholder": "重点技能 {n}"
+    },
+    "custom": {
+      "label": "自定义文本框",
+      "placeholder": "项目符号"
+    },
+    "form": {
+      "hideSection": "隐藏板块",
+      "showSection": "显示板块",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "hideBullets": "隐藏项目符号",
+      "showBullets": "显示项目符号"
+    },
+    "theme": {
+      "title": "简历设置",
+      "themeColor": "主题颜色",
+      "fontFamily": "字体",
+      "fontSize": "字号（磅）",
+      "documentSize": "纸张大小",
+      "compact": "紧凑",
+      "standard": "标准",
+      "large": "大号",
+      "letter": "Letter",
+      "letterSub": "（美国、加拿大）",
+      "a4": "A4",
+      "a4Sub": "（其他国家）"
+    }
+  },
+  "controlBar": {
+    "autoscale": "自动缩放",
+    "download": "下载简历"
+  },
+  "parser": {
+    "pageTitle": "ATS 简历解析器测试",
+    "pageDescription": "上传简历 PDF，查看申请人跟踪系统 (ATS) 究竟提取了什么。解析正确的字段越多，通过自动筛选的几率越大。",
+    "exampleTitle": "示例 {n}",
+    "example1Desc": "来自拉文大学职业中心的简历示例 —",
+    "example1Link": "查看来源",
+    "example2Desc": "使用 ResumeFlow 简历制作工具创建 —",
+    "example2Link": "查看来源",
+    "addResumeBefore": "或",
+    "addResumeBold": "测试您自己的简历",
+    "addResumeAfter": "检查解析效果。至少您的姓名和邮箱应被准确识别。",
+    "sectionTitle": "解析结果",
+    "selectExample": "选择一个示例或上传您的简历以查看解析结果。",
+    "loading": "正在加载 PDF 并解析...",
+    "tableProfile": "个人资料",
+    "tableName": "姓名",
+    "tableEmail": "邮箱",
+    "tablePhone": "电话",
+    "tableLocation": "所在地",
+    "tableLink": "链接",
+    "tableSummary": "摘要",
+    "tableEducation": "教育背景",
+    "tableSchool": "学校",
+    "tableDegree": "学位",
+    "tableGpa": "GPA",
+    "tableDate": "日期",
+    "tableDescriptions": "描述",
+    "tableWorkExperience": "工作经历",
+    "tableCompany": "公司",
+    "tableJobTitle": "职位",
+    "tableProjects": "项目",
+    "tableProject": "项目",
+    "tableSkills": "技能"
+  },
+  "algorithm": {
+    "title": "解析器工作原理",
+    "intro": "ResumeFlow 解析管线技术概览 —— 从原始 PDF 到结构化 JSON 的四个阶段。面向单栏英文简历。",
+    "step1Title": "步骤 1. 从 PDF 提取文本项",
+    "step1p1": "PDF 是按",
+    "step1IsoLink": "ISO 32000 规范",
+    "step1p1After": "定义的二进制格式。原始内容编码；我们用 Mozilla 的",
+    "step1PdfjsLink": "pdf.js",
+    "step1p2After": "解码并提取每个文本项及其元数据（x/y 位置、字重、换行）。",
+    "step1p3": "下表显示 {n} 个提取的文本项。每项包含内容加位置元数据 —— 坐标相对页面原点（左下角 = 0,0）、bold 标志、换行标志。",
+    "step1TableHeader": ["#", "文本内容", "元数据"],
+    "step2Title": "步骤 2. 将项分组为行",
+    "step2Intro": "原始项有两个问题：",
+    "step2Issue1Title": "问题 1：碎片化",
+    "step2Issue1Text": "单一逻辑 token —— 如电话 \"(123) 456-7890\" —— 常因字体变化或 PDF 编码怪异被拆成多项。",
+    "step2Solution1Title": "修复：",
+    "step2Solution1Text": "水平间隙小于平均字符宽度时合并相邻项。距离 = 右项 X₁ − 左项 X₂。平均宽度 = 项宽度总和 / 字符总数（排除 bold 标记和换行）。",
+    "step2Solution1Formula": "距离 = 右项 X₁ - 左项 X₂",
+    "step2Solution1After": "",
+    "step2Issue2Title": "问题 2：缺失上下文",
+    "step2Issue2Text": "人类按行阅读，用粗体和邻近性分组相关文本。项缺此结构 —— 扁平列表。",
+    "step2Solution2Title": "修复：",
+    "step2Solution2Text": "按相似 Y 坐标聚类项，再左到右排序。还原视觉阅读顺序。",
+    "step2TableHeader": ["行", "行内容"],
+    "step3Title": "步骤 3. 将行分组为章节",
+    "step3p1": "用启发式识别章节标题：bold + 短文本。标题后的一切归属该章节，直到下一标题。",
+    "step3p2": "检测到章节 ({n} 个)：标题以",
+    "step3p2Bold": "粗体",
+    "step3p2After": "显示，成员行按章节着色。",
+    "step3TableHeader": ["行", "行内容"],
+    "step3ProfileLabel": "个人资料",
+    "step4Title": "步骤 4. 从章节提取结构化字段",
+    "step4Sub1": "特征评分",
+    "step4Sub1Text": "对每个目标字段（姓名、邮箱、电话），候选行按特征函数集打分。最高分胜出。",
+    "step4TableHeader": ["简历属性", "最佳候选 (分数)", "其他候选"],
+    "step4Name": "姓名",
+    "step4Email": "邮箱",
+    "step4Phone": "电话",
+    "step4DynamicText": "上传简历中，姓名字段极可能为 \"{name}\"，特征得分 {score}/5。",
+    "step4Sub2": "特征函数",
+    "step4Sub3": "核心特征函数",
+    "step4Sub4": "特殊情况：子章节",
+    "step4FeatureSetsTableTitle": "姓名特征集",
+    "step4FeatureSetsTableHeader": ["特征函数", "分数影响"],
+    "step4Feature1": "仅字母、空格、句点",
+    "step4Feature2": "粗体格式",
+    "step4Feature3": "全大写",
+    "step4Feature4": "含 @",
+    "step4Feature5": "含数字",
+    "step4Feature6": "含逗号",
+    "step4Feature7": "含斜杠",
+    "step4ScoreMatchEmail": "−4 (匹配邮箱模式)",
+    "step4ScoreMatchPhone": "−4 (匹配电话模式)",
+    "step4ScoreMatchAddress": "−4 (匹配地址模式)",
+    "step4ScoreMatchUrl": "−4 (匹配 URL 模式)",
+    "step4Score3": "+3",
+    "step4Score2": "+2",
+    "step4CoreTableHeader": ["属性", "核心特征", "正则"],
+    "step4CoreName": "仅字母、空格、句点",
+    "step4CoreEmail": "邮箱格式：非空格 @ 非空格 . 非空格",
+    "step4CorePhone": "电话：(xxx) xxx-xxxx 括号/连字符可选",
+    "step4CoreLocation": "城市、省格式",
+    "step4CoreUrl": "URL 格式：domain.tld/path",
+    "step4CoreSchool": "含学校关键词 (College, University, School)",
+    "step4CoreDegree": "含学位关键词 (Associate, Bachelor, Master, PhD)",
+    "step4CoreGpa": "GPA 格式：x.xx",
+    "step4CoreDate": "日期关键词：年、月、季节、Present",
+    "step4CoreJobTitle": "含职位关键词 (Analyst, Engineer, Intern, Manager)",
+    "step4CoreCompany": "粗体或不匹配职位/日期模式",
+    "step4CoreProject": "粗体或不匹配日期模式",
+    "conclusion": "以上即 ResumeFlow 解析管线全貌。",
+    "attribution": "基于 Xitang Zhao 的 OpenResume 解析器 (2023 年 6 月)",
+    "attributionName": "OpenResume"
+  },
+  "demo": {
+    "name": "张三",
+    "summary": "热衷于打造深受用户喜爱的卓越产品的软件工程师",
+    "phone": "123-456-7890",
+    "location": "北京市",
+    "url": "linkedin.com/in/zhangsan",
+    "work1Company": "ABC 科技有限公司",
+    "work1Title": "软件工程师",
+    "work1Date": "2023年5月 - 至今",
+    "work1Desc1": "领导 5 名工程师的跨职能团队开发搜索栏，使数千日活用户能跨平台搜索内容",
+    "work1Desc2": "创建精美的首页产品演示动画，使注册率提升 20%",
+    "work1Desc3": "编写模块化、易维护的整洁代码，同时确保 100% 测试覆盖率",
+    "work2Company": "DEF 公司",
+    "work2Title": "软件工程师实习生",
+    "work2Date": "2022年夏季",
+    "work2Desc1": "重构现有内容编辑器以适配移动端，使移动端用户参与度提升 10%",
+    "work2Desc2": "创建进度条帮助用户追踪进度，使用户留存率提升 15%",
+    "work2Desc3": "发现并修复现有代码库中的 5 个漏洞，提升用户体验",
+    "work3Company": "XYZ 大学",
+    "work3Title": "研究助理",
+    "work3Date": "2021年夏季",
+    "work3Desc1": "设计新的文本分类 NLP 算法，准确率提升 10%",
+    "work3Desc2": "整理并向 20 多名师生展示研究成果",
+    "eduSchool": "XYZ 大学",
+    "eduDegree": "计算机科学理学学士",
+    "eduDate": "2019年9月 - 2023年5月",
+    "eduGpa": "3.8",
+    "eduDesc1": "获得 2022 年教育黑客马拉松第一名、2023 年健康科技竞赛第二名",
+    "eduDesc2": "《Web 编程》课程助教（2022 - 2023）",
+    "eduDesc3": "课程：面向对象编程 (A+)、Web 编程 (A+)、云计算 (A)、机器学习导论 (A-)、算法分析 (A-)",
+    "sectionWorkExperience": "工作经历",
+    "sectionEducation": "教育背景",
+    "sectionProject": "项目",
+    "sectionSkills": "技能",
+    "sectionCustom": "自定义板块",
+    "projectName": "ResumeFlow",
+    "projectDate": "2023年春季",
+    "projectDesc1": "创建并发布免费简历制作网页应用，帮助数千用户轻松制作专业简历并找到理想工作",
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "Python",
+    "skill4": "TypeScript",
+    "skill5": "React",
+    "skill6": "C++",
+    "techSkills": "技术：React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+    "softSkills": "软技能：团队协作、创造性问题解决、沟通、学习心态、敏捷"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "effectiveDate": "生效日期：2025年7月",
+    "dataWeCollect": {
+      "title": "我们收集的数据",
+      "none": "无。",
+      "description": "您的简历内容 — 姓名、经历、教育、技能及所有其他字段 — 仅存储在您浏览器的 localStorage 中。绝不触及我们的服务器。无需注册、无需邮箱、无简历内容追踪。"
+    },
+    "analyticsAds": {
+      "title": "分析与广告",
+      "ym": {
+        "title": "Yandex Metrica / РСЯ",
+        "desc": "聚合匿名流量统计。IP 地址已掩码。可通过浏览器 Do Not Track 或禁用 JavaScript 退出。"
+      },
+      "cf": {
+        "title": "Cloudflare Web Analytics",
+        "desc": "隐私优先，无 Cookie，无个人数据。"
+      }
+    },
+    "thirdParty": {
+      "title": "第三方服务",
+      "fonts": {
+        "title": "字体",
+        "desc": "自托管于我们的域名，无请求发往 Google Fonts。"
+      },
+      "github": {
+        "title": "GitHub",
+        "desc": "仅当您点击 \"View on GitHub\" 链接时。"
+      }
+    },
+    "yourRights": {
+      "title": "您的权利",
+      "description": "因我们不存储您的数据，我们端无内容可删除、导出或更正。清除浏览器存储（或使用构建器中的 \"Clear data\" 选项）即可移除所有本地数据。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "疑问： ",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← 返回 ResumeFlow"
+  },
+  "terms": {
+    "title": "服务条款",
+    "effectiveDate": "生效日期：2025年7月",
+    "service": {
+      "title": "服务",
+      "description": "ResumeFlow (resumeflow.fun) 是免费开源的简历创建与解析工具。按 \"现状\" 提供，不提供任何明示或暗示担保。"
+    },
+    "yourContent": {
+      "title": "您的内容",
+      "description": "您拥有简历数据的所有权。我们不主张任何权利。数据留在您的浏览器 — 我们不查看、不存储、不在服务器处理。"
+    },
+    "acceptableUse": {
+      "title": "可接受使用",
+      "1": "请勿使用解析器提取您不拥有或无权处理的简历中的个人信息。",
+      "2": "请勿尝试过载、逆向工程或规避服务的任何部分。",
+      "3": "请勿将服务用于任何非法或未经授权的目的。"
+    },
+    "openSource": {
+      "title": "开源",
+      "description": "源代码采用 MIT 许可。您可自由 fork、修改、自托管、重新分发，遵守许可条款。"
+    },
+    "noLiability": {
+      "title": "免责声明",
+      "description": "我们不对因使用或无法使用服务而产生的任何损害负责，包括格式问题、解析错误、错失工作机会或浏览器存储数据丢失。"
+    },
+    "changes": {
+      "title": "变更",
+      "description": "我们可能会更新这些条款。继续使用即视为接受变更。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← 返回 ResumeFlow"
+  }
+}

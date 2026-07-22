@@ -10,15 +10,17 @@ import {
   selectWorkExperiences,
 } from "lib/redux/resumeSlice";
 import type { ResumeWorkExperience } from "lib/redux/types";
+import { useT } from "lib/i18n/context";
 
 export const WorkExperiencesForm = () => {
+  const t = useT();
   const workExperiences = useAppSelector(selectWorkExperiences);
   const dispatch = useAppDispatch();
 
   const showDelete = workExperiences.length > 1;
 
   return (
-    <Form form="workExperiences" addButtonText="Add Job">
+    <Form form="workExperiences" addButtonText={t("form.work.addButton")}>
       {workExperiences.map(({ company, jobTitle, date, descriptions }, idx) => {
         const handleWorkExperienceChange = (
           ...[
@@ -42,37 +44,37 @@ export const WorkExperiencesForm = () => {
             showMoveUp={showMoveUp}
             showMoveDown={showMoveDown}
             showDelete={showDelete}
-            deleteButtonTooltipText="Delete job"
+            deleteButtonTooltipText={t("form.work.deleteTooltip")}
           >
             <Input
-              label="Company"
+              label={t("form.work.companyLabel")}
               labelClassName="col-span-full"
               name="company"
-              placeholder="Khan Academy"
+              placeholder={t("form.work.companyPlaceholder")}
               value={company}
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Job Title"
+              label={t("form.work.jobTitleLabel")}
               labelClassName="col-span-4"
               name="jobTitle"
-              placeholder="Software Engineer"
+              placeholder={t("form.work.jobTitlePlaceholder")}
               value={jobTitle}
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Date"
+              label={t("form.work.dateLabel")}
               labelClassName="col-span-2"
               name="date"
-              placeholder="Jun 2022 - Present"
+              placeholder={t("form.work.datePlaceholder")}
               value={date}
               onChange={handleWorkExperienceChange}
             />
             <BulletListTextarea
-              label="Description"
+              label={t("form.work.descriptionLabel")}
               labelClassName="col-span-full"
               name="descriptions"
-              placeholder="Bullet points"
+              placeholder={t("form.work.descriptionPlaceholder")}
               value={descriptions}
               onChange={handleWorkExperienceChange}
             />

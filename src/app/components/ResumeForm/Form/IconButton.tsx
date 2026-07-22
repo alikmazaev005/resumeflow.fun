@@ -7,6 +7,7 @@ import {
   TrashIcon,
   ListBulletIcon,
 } from "@heroicons/react/24/outline";
+import { useT } from "lib/i18n/context";
 
 export const ShowIconButton = ({
   show,
@@ -15,7 +16,8 @@ export const ShowIconButton = ({
   show: boolean;
   setShow: (show: boolean) => void;
 }) => {
-  const tooltipText = show ? "Hide section" : "Show section";
+  const t = useT();
+  const tooltipText = show ? t("form.form.hideSection") : t("form.form.showSection");
   const onClick = () => {
     setShow(!show);
   };
@@ -39,7 +41,8 @@ export const MoveIconButton = ({
   size?: "small" | "medium";
   onClick: (type: MoveIconButtonType) => void;
 }) => {
-  const tooltipText = type === "up" ? "Move up" : "Move down";
+  const t = useT();
+  const tooltipText = type === "up" ? t("form.form.moveUp") : t("form.form.moveDown");
   const sizeClassName = size === "medium" ? "h-6 w-6" : "h-4 w-4";
   const Icon = type === "up" ? ArrowSmallUpIcon : ArrowSmallDownIcon;
 
@@ -77,9 +80,10 @@ export const BulletListIconButton = ({
   onClick: (newShowBulletPoints: boolean) => void;
   showBulletPoints: boolean;
 }) => {
+  const t = useT();
   const tooltipText = showBulletPoints
-    ? "Hide bullet points"
-    : "Show bullet points";
+    ? t("form.form.hideBullets")
+    : t("form.form.showBullets");
 
   return (
     <IconButton

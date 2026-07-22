@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "ariaHeader": "Encabezado del sitio",
+    "ariaNav": "Barra de navegación del sitio",
+    "logoSrLabel": "ResumeFlow",
+    "logoAlt": "Logo de ResumeFlow",
+    "builder": "Creador",
+    "parser": "Analizador"
+  },
+  "hero": {
+    "titleLine1": "Crea un currículum",
+    "titleLine2": "limpio y profesional en minutos",
+    "subtitle": "Gratis, código abierto, privacidad primero. Sin cuenta — tus datos se quedan en tu navegador.",
+    "cta": "Empezar",
+    "noSignup": "No requiere registro",
+    "existingResume": "¿Ya tienes un currículum? Verifica su legibilidad ATS con el",
+    "parserLink": "analizador de currículums"
+  },
+  "steps": {
+    "title": "Cómo funciona",
+    "step1Title": "Importar o empezar de cero",
+    "step1Text": "Sube un PDF para autollenar o crea desde cero",
+    "step2Title": "Vista previa y edita",
+    "step2Text": "Ve el resultado formateado al instante — ajusta contenido, fuentes, espaciados",
+    "step3Title": "Descarga y postúlate",
+    "step3Text": "Exporta un PDF pulido que pase las verificaciones ATS"
+  },
+  "features": {
+    "alt": "Funcionalidad de ResumeFlow",
+    "freeTitle": "Gratis para siempre",
+    "freeText": "Sin suscripciones, sin funciones bloqueadas, sin upsells. Todas las plantillas, fuentes y opciones de exportación son gratis.",
+    "usTitle": "Listo para ATS por defecto",
+    "usText": "Diseño de una sola columna, orden estándar de secciones, sin fotos ni gráficos — todo estructurado para Greenhouse, Lever, Workday y otros ATS.",
+    "privacyTitle": "Privacidad local primero",
+    "privacyText": "Tus datos de currículum nunca salen de tu navegador. Guardados en localStorage, sin servidor, sin cuenta, sin tracking.",
+    "openSourceTitle": "Código Abierto",
+    "openSourceText": "Construido sobre el proyecto OpenResume. Código fuente completo en GitHub — audítalo, hazle fork, contribuye.",
+    "openSourceLink": "Ver en GitHub"
+  },
+  "testimonials": {
+    "title": "Por qué la gente elige ResumeFlow",
+    "metrics": [
+      {
+        "value": "Miles de",
+        "label": "currículums creados"
+      },
+      {
+        "value": "ATS-ready",
+        "label": "por defecto"
+      },
+      {
+        "value": "0",
+        "label": "datos en nuestros servidores"
+      }
+    ],
+    "personas": [
+      {
+        "icon": "graduation-cap",
+        "title": "Estudiantes y Recién Graduados",
+        "description": "Primer CV, prácticas, puestos junior — formato limpio que pasa cualquier ATS"
+      },
+      {
+        "icon": "briefcase",
+        "title": "Cambio de Carrera",
+        "titleHighlight": "IT / Tech",
+        "description": "Destaca skills transferibles, proyectos y certificaciones en layout parser-friendly"
+      },
+      {
+        "icon": "user-check",
+        "title": "Profesionales Senior",
+        "description": "15+ años de experiencia en CV escaneable y contundente — listo en 5 minutos"
+      }
+    ],
+    "parserCTA": {
+      "text": "¿Ya tienes un currículum?",
+      "linkText": "Probar en el parser →",
+      "href": "/resume-parser"
+    }
+  },
+  "qa": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Qué es un creador de currículums y cómo se diferencia de una plantilla?",
+    "a1p1": "Una plantilla (Word, Google Docs) da una estructura vacía — tú formateas cada sección manualmente, ajustas espaciados, corriges alineación de viñetas. Un creador maneja el layout automáticamente: ingresas contenido, genera un PDF coherente listo para imprimir.",
+    "a1p2": "ResumeFlow va más lejos: impone estructura ATS-friendly (una columna, encabezados estándar, sin fotos), te deja cambiar fuentes y espaciados en un clic, e incluye parser integrado para verificar cómo un ATS leerá tu archivo antes de postular.",
+    "q2": "¿Cómo se diferencia ResumeFlow de otros creadores gratis como Reactive Resume o FlowCV?",
+    "a2p1": "La mayoría optimiza para flexibilidad visual — múltiples columnas, gráficos, temas de color. ResumeFlow optimiza para parseabilidad:",
+    "a2p1After": "Esto es lo que nos diferencia:",
+    "a2Feature1Title": "1. Diseño estricto ATS-first",
+    "a2Feature1Text": "Solo una columna. Orden estándar de secciones. Sin campo de foto. Sin elementos decorativos que confundan parsers. Cada opción por defecto validada contra parsing de Greenhouse, Lever, Workday.",
+    "a2Feature2Title": "2. Almacenamiento verdaderamente solo-local",
+    "a2Feature2Text": "Sin creación de cuenta, sin sync en la nube, sin analytics en tu contenido de currículum. Datos en localStorage del navegador. Usable incluso offline tras primera carga.",
+    "q3": "¿Cómo maneja ResumeFlow los datos de mi currículum?",
+    "a3p1": "Todos los datos que ingresas en el creador se procesan y almacenan localmente en tu navegador — nunca se envían ni guardan en ningún servidor. Esto significa que nadie, incluidos nosotros, tiene acceso al contenido de tu currículum. Puedes cerrar la pestaña y volver luego — tus datos se quedan en tu dispositivo hasta que los borres o limpies la caché del navegador. El único momento en que la información sale del navegador es cuando tú haces clic en \"Descargar PDF\".",
+    "q4": "¿Cómo puede ayudar el analizador si ya tengo un currículum?",
+    "a4p1": "Si ya tienes un currículum en PDF o Word, no hace falta reescribirlo desde cero — súbelo al analizador y el servicio te mostrará cómo un sistema de seguimiento de candidatos (ATS) usado por la mayoría de grandes empresas lo lee. El analizador marca problemas de formato invisibles al ojo humano pero que impiden al bot leer correctamente tu experiencia y habilidades — como tablas, columnas o fuentes no estándar que pueden hacer que tu currículum sea rechazado antes de que un reclutador lo vea."
+  },
+  "import": {
+    "headingNew": "Importar datos de un currículum existente",
+    "or": "o",
+    "noResumeHeading": "¿Aún no tienes currículum?",
+    "createFromScratch": "Crear desde cero",
+    "returningHeading": "Tienes datos guardados en el navegador de una sesión anterior",
+    "continueWhereLeftOff": "Continuar donde lo dejé",
+    "overrideHeading": "Sobrescribir datos con nuevo currículum",
+    "dropzoneBrowse": "Busca un archivo PDF o arrástralo aquí",
+    "dropzonePrivacy": "Los datos del archivo se usan localmente y nunca salen de tu navegador",
+    "dropzoneRemove": "Eliminar archivo",
+    "dropzoneBrowseFile": "Buscar archivo",
+    "dropzoneError": "Solo se admiten archivos PDF",
+    "dropzoneImport": "Importar y continuar",
+    "dropzoneNoteImport": "Nota: La importación funciona mejor con currículums de una sola columna",
+    "dropzoneNoteParser": "Nota: El analizador funciona mejor con currículums de una sola columna",
+    "dropzoneAltPdf": "Agregar PDF"
+  },
+  "form": {
+    "profile": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Juan Pérez",
+      "summaryLabel": "Objetivo",
+      "summaryPlaceholder": "Emprendedor y educador apasionado por hacer la educación gratis para todos",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "hello@khanacademy.org",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "(123)456-7890",
+      "websiteLabel": "Sitio web",
+      "websitePlaceholder": "linkedin.com/in/khanacademy",
+      "locationLabel": "Ubicación",
+      "locationPlaceholder": "Madrid, España"
+    },
+    "work": {
+      "addButton": "Agregar empleo",
+      "deleteTooltip": "Eliminar empleo",
+      "companyLabel": "Empresa",
+      "companyPlaceholder": "Khan Academy",
+      "jobTitleLabel": "Puesto",
+      "jobTitlePlaceholder": "Ingeniero de software",
+      "dateLabel": "Fecha",
+      "datePlaceholder": "Jun 2022 - Presente",
+      "descriptionLabel": "Descripción",
+      "descriptionPlaceholder": "Puntos clave"
+    },
+    "education": {
+      "addButton": "Agregar institución",
+      "deleteTooltip": "Eliminar institución",
+      "schoolLabel": "Institución",
+      "schoolPlaceholder": "Universidad Cornell",
+      "dateLabel": "Fecha",
+      "datePlaceholder": "Mayo 2018",
+      "degreeLabel": "Título y carrera",
+      "degreePlaceholder": "Bachelor of Science in Computer Engineering",
+      "gpaLabel": "Promedio",
+      "gpaPlaceholder": "3.81",
+      "additionalLabel": "Información adicional (opcional)",
+      "additionalPlaceholder": "Espacio libre para listar actividades adicionales, cursos, premios, etc."
+    },
+    "project": {
+      "addButton": "Agregar proyecto",
+      "deleteTooltip": "Eliminar proyecto",
+      "nameLabel": "Nombre del proyecto",
+      "namePlaceholder": "ResumeFlow",
+      "dateLabel": "Fecha",
+      "datePlaceholder": "Invierno 2022",
+      "descriptionLabel": "Descripción",
+      "descriptionPlaceholder": "Puntos clave"
+    },
+    "skills": {
+      "listLabel": "Lista de habilidades",
+      "listPlaceholder": "Puntos clave",
+      "featuredLabel": "Habilidades destacadas (opcional)",
+      "featuredText": "Las habilidades destacadas son opcionales para resaltar competencias principales; más círculos = nivel mayor.",
+      "featuredPlaceholder": "Habilidad destacada {n}"
+    },
+    "custom": {
+      "label": "Cuadro de texto personalizado",
+      "placeholder": "Puntos clave"
+    },
+    "form": {
+      "hideSection": "Ocultar sección",
+      "showSection": "Mostrar sección",
+      "moveUp": "Subir",
+      "moveDown": "Bajar",
+      "hideBullets": "Ocultar viñetas",
+      "showBullets": "Mostrar viñetas"
+    },
+    "theme": {
+      "title": "Configuración del currículum",
+      "themeColor": "Color del tema",
+      "fontFamily": "Familia tipográfica",
+      "fontSize": "Tamaño de fuente (pt)",
+      "documentSize": "Tamaño del documento",
+      "compact": "Compacto",
+      "standard": "Estándar",
+      "large": "Grande",
+      "letter": "Carta",
+      "letterSub": "(EE. UU., Canadá)",
+      "a4": "A4",
+      "a4Sub": "(otros países)"
+    }
+  },
+  "controlBar": {
+    "autoscale": "Ajuste automático",
+    "download": "Descargar currículum"
+  },
+  "parser": {
+    "pageTitle": "Test ATS del analizador de currículums",
+    "pageDescription": "Sube un currículum en PDF para ver exactamente qué extrae un sistema de seguimiento de candidatos (ATS). Más campos parseados correctamente = mejores chances de pasar el filtro automático.",
+    "exampleTitle": "Ejemplo {n}",
+    "example1Desc": "Ejemplo de currículum del Centro de Carreras de la Universidad de La Verne —",
+    "example1Link": "Ver fuente",
+    "example2Desc": "Creado con el creador ResumeFlow —",
+    "example2Link": "Ver fuente",
+    "addResumeBefore": "O",
+    "addResumeBold": "prueba tu propio currículum",
+    "addResumeAfter": "para verificar cómo se parsea. Mínimo: tu nombre y email deben reconocerse con precisión.",
+    "sectionTitle": "Resultados del parsing",
+    "selectExample": "Selecciona un ejemplo o sube tu currículum para ver los resultados del análisis.",
+    "loading": "Cargando PDF y analizando...",
+    "tableProfile": "Perfil",
+    "tableName": "Nombre",
+    "tableEmail": "Correo electrónico",
+    "tablePhone": "Teléfono",
+    "tableLocation": "Ubicación",
+    "tableLink": "Enlace",
+    "tableSummary": "Resumen",
+    "tableEducation": "Educación",
+    "tableSchool": "Institución",
+    "tableDegree": "Título",
+    "tableGpa": "Promedio",
+    "tableDate": "Fecha",
+    "tableDescriptions": "Descripciones",
+    "tableWorkExperience": "Experiencia laboral",
+    "tableCompany": "Empresa",
+    "tableJobTitle": "Puesto",
+    "tableProjects": "Proyectos",
+    "tableProject": "Proyecto",
+    "tableSkills": "Habilidades"
+  },
+  "algorithm": {
+    "title": "Cómo funciona el analizador",
+    "intro": "Resumen técnico del pipeline de parsing ResumeFlow — cuatro etapas de PDF crudo a JSON estructurado. Para currículums en inglés a una columna.",
+    "step1Title": "Paso 1. Extraer elementos de texto del PDF",
+    "step1p1": "El PDF es un formato binario según la",
+    "step1IsoLink": "especificación ISO 32000",
+    "step1p1After": ". Contenido crudo codificado; usamos",
+    "step1PdfjsLink": "pdf.js",
+    "step1p2After": "de Mozilla para decodificar y extraer cada elemento de texto con metadatos (posición x/y, peso de fuente, saltos de línea).",
+    "step1p3": "La tabla abajo muestra {n} elementos de texto extraídos. Cada uno lleva contenido más metadatos posicionales — coordenadas relativas al origen de la página (esquina inf-izq = 0,0), flag bold, flag salto de línea.",
+    "step1TableHeader": ["#", "Contenido de texto", "Metadatos"],
+    "step2Title": "Paso 2. Agrupar elementos en líneas",
+    "step2Intro": "Elementos crudos tienen dos problemas:",
+    "step2Issue1Title": "Problema 1: Fragmentación",
+    "step2Issue1Text": "Un token lógico único — como teléfono \"(123) 456-7890\" — a menudo se rompe en varios elementos por cambios de fuente o rarezas de codificación PDF.",
+    "step2Solution1Title": "Solución:",
+    "step2Solution1Text": "Fusionar elementos adyacentes si brecha horizontal < ancho promedio de carácter. Distancia = X_Derecha₁ − X_Izquierda₂. Ancho promedio = anchos totales / caracteres totales (marcadores bold y saltos excluidos).",
+    "step2Solution1Formula": "Distancia = X_Derecha₁ - X_Izquierda₂",
+    "step2Solution1After": "",
+    "step2Issue2Title": "Problema 2: Contexto faltante",
+    "step2Issue2Text": "Humanos leen línea por línea, usando negrita y proximidad para agrupar texto relacionado. Elementos no tienen esta estructura — lista plana.",
+    "step2Solution2Title": "Solución:",
+    "step2Solution2Text": "Reconstruir líneas clustering elementos con Y-coordenadas similares, luego ordenar izquierda-derecha. Restaura orden de lectura visual.",
+    "step2TableHeader": ["Líneas", "Contenido de línea"],
+    "step3Title": "Paso 3. Agrupar líneas en secciones",
+    "step3p1": "Identificar encabezados de sección por heurística: bold + texto corto. Todo lo que sigue a un encabezado le pertenece hasta el siguiente.",
+    "step3p2": "Secciones detectadas ({n} total): encabezados en",
+    "step3p2Bold": "negrita",
+    "step3p2After": ", líneas miembros coloreadas por sección.",
+    "step3TableHeader": ["Líneas", "Contenido de línea"],
+    "step3ProfileLabel": "PERFIL",
+    "step4Title": "Paso 4. Extraer campos estructurados",
+    "step4Sub1": "Feature Scoring",
+    "step4Sub1Text": "Para cada campo objetivo (nombre, email, teléfono), líneas candidatas se puntúan contra feature functions. Score máximo gana.",
+    "step4TableHeader": ["Atributo del currículum", "Mejor candidato (Score)", "Otros candidatos"],
+    "step4Name": "Nombre",
+    "step4Email": "Correo electrónico",
+    "step4Phone": "Teléfono",
+    "step4DynamicText": "En el currículum subido, el campo nombre probablemente sea \"{name}\" con feature score {score} de 5.",
+    "step4Sub2": "Feature Functions",
+    "step4Sub3": "Core Feature Functions",
+    "step4Sub4": "Special Case: Subsections",
+    "step4FeatureSetsTableTitle": "Name Feature Set",
+    "step4FeatureSetsTableHeader": ["Feature Function", "Score Impact"],
+    "step4Feature1": "Solo letras, espacios, puntos",
+    "step4Feature2": "Formato bold",
+    "step4Feature3": "Todo mayúsculas",
+    "step4Feature4": "Contiene @",
+    "step4Feature5": "Contiene dígitos",
+    "step4Feature6": "Contiene coma",
+    "step4Feature7": "Contiene barra",
+    "step4ScoreMatchEmail": "−4 (match email pattern)",
+    "step4ScoreMatchPhone": "−4 (match phone pattern)",
+    "step4ScoreMatchAddress": "−4 (match address pattern)",
+    "step4ScoreMatchUrl": "−4 (match URL pattern)",
+    "step4Score3": "+3",
+    "step4Score2": "+2",
+    "step4CoreTableHeader": ["Attribute", "Core Feature", "Regex"],
+    "step4CoreName": "Solo letras, espacios, puntos",
+    "step4CoreEmail": "Formato email: no-espacio @ no-espacio . no-espacio",
+    "step4CorePhone": "Teléfono: (xxx) xxx-xxxx paréntesis/guión opcionales",
+    "step4CoreLocation": "Formato Ciudad, PROV",
+    "step4CoreUrl": "Formato URL: domain.tld/path",
+    "step4CoreSchool": "Contiene palabra clave escuela (College, University, School)",
+    "step4CoreDegree": "Contiene palabra clave título (Associate, Bachelor, Master, PhD)",
+    "step4CoreGpa": "Formato GPA: x.xx",
+    "step4CoreDate": "Palabras clave fecha: año, mes, estación, Present",
+    "step4CoreJobTitle": "Contiene palabra clave puesto (Analyst, Engineer, Intern, Manager)",
+    "step4CoreCompany": "Bold o no match título/fecha",
+    "step4CoreProject": "Bold o no match fecha",
+    "conclusion": "Eso cubre el pipeline de parsing ResumeFlow.",
+    "attribution": "Basado en el parser OpenResume por Xitang Zhao (junio 2023)",
+    "attributionName": "OpenResume"
+  },
+  "demo": {
+    "name": "Juan Pérez",
+    "summary": "Ingeniero de software apasionado por crear productos excepcionales que la gente ame",
+    "phone": "123-456-7890",
+    "location": "Madrid, España",
+    "url": "linkedin.com/in/juan-perez",
+    "work1Company": "Empresa ABC",
+    "work1Title": "Ingeniero de software",
+    "work1Date": "Mayo 2023 - Presente",
+    "work1Desc1": "Lideré equipo multifuncional de 5 ingenieros desarrollando barra de búsqueda que permite a miles de usuarios activos diarios buscar contenido en toda la plataforma",
+    "work1Desc2": "Creé animaciones de demo de producto impresionantes en página de inicio que aumentaron tasa de registro 20%",
+    "work1Desc3": "Escribí código limpio, modular, fácil de mantener garantizando 100% cobertura de tests",
+    "work2Company": "Organización DEF",
+    "work2Title": "Ingeniero de software - pasante",
+    "work2Date": "Verano 2022",
+    "work2Desc1": "Reestructuré editor de contenido existente para hacerlo responsive móvil, generando aumento 10% engagement usuarios móviles",
+    "work2Desc2": "Creé barra de progreso para ayudar usuarios a seguir su avance, incrementando retención 15%",
+    "work2Desc3": "Descubrí y corregí 5 errores en código base existente para mejorar experiencia de usuario",
+    "work3Company": "Universidad XYZ",
+    "work3Title": "Asistente de investigación",
+    "work3Date": "Verano 2021",
+    "work3Desc1": "Diseñé nuevo algoritmo NLP para clasificación de texto resultando en aumento 10% precisión",
+    "work3Desc2": "Compilé y presenté hallazgos de investigación a grupo de 20+ profesores y estudiantes",
+    "eduSchool": "Universidad XYZ",
+    "eduDegree": "Bachelor of Science in Computer Science",
+    "eduDate": "Sept 2019 - Mayo 2023",
+    "eduGpa": "3.8",
+    "eduDesc1": "1er lugar Hackatón Educación 2022, 2do lugar Competencia Health Tech 2023",
+    "eduDesc2": "Asistente de profesor para Programación para la Web (2022 - 2023)",
+    "eduDesc3": "Cursos: Programación Orientada a Objetos (A+), Programación para la Web (A+), Computación en la Nube (A), Introducción al Aprendizaje Automático (A-), Análisis de Algoritmos (A-)",
+    "sectionWorkExperience": "EXPERIENCIA LABORAL",
+    "sectionEducation": "EDUCACIÓN",
+    "sectionProject": "PROYECTOS",
+    "sectionSkills": "HABILIDADES",
+    "sectionCustom": "SECCIÓN PERSONALIZADA",
+    "projectName": "ResumeFlow",
+    "projectDate": "Primavera 2023",
+    "projectDesc1": "Creé y lancé app web gratuita de creación de currículums permitiendo a miles de usuarios crear currículums profesionales fácilmente y conseguir el empleo de sus sueños",
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "Python",
+    "skill4": "TypeScript",
+    "skill5": "React",
+    "skill6": "C++",
+    "techSkills": "Tech: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+    "softSkills": "Soft: Trabajo en equipo, Resolución creativa de problemas, Comunicación, Mentalidad de aprendizaje, Ágil"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "effectiveDate": "Fecha de vigencia: julio 2025",
+    "dataWeCollect": {
+      "title": "Datos que recopilamos",
+      "none": "Ninguno.",
+      "description": "El contenido de tu CV — nombre, experiencia, educación, habilidades y todos los demás campos — se almacena exclusivamente en el localStorage de tu navegador. Nunca toca nuestros servidores. Sin creación de cuenta, sin email requerido, sin seguimiento del contenido del CV."
+    },
+    "analyticsAds": {
+      "title": "Analítica y publicidad",
+      "ym": {
+        "title": "Yandex Metrica / RSYA",
+        "desc": "Estadísticas de tráfico agregadas y anonimizadas. Las direcciones IP están enmascaradas. Puedes optar por no participar mediante Do Not Track del navegador o desactivando JavaScript."
+      },
+      "cf": {
+        "title": "Cloudflare Web Analytics",
+        "desc": "Privacidad primero, sin cookies, sin datos personales."
+      }
+    },
+    "thirdParty": {
+      "title": "Servicios de terceros",
+      "fonts": {
+        "title": "Fuentes",
+        "desc": "Auto-hospedadas en nuestro dominio, sin peticiones a Google Fonts."
+      },
+      "github": {
+        "title": "GitHub",
+        "desc": "Solo si haces clic en enlaces \"View on GitHub\"."
+      }
+    },
+    "yourRights": {
+      "title": "Tus derechos",
+      "description": "Como no almacenamos tus datos, no hay nada que borrar, exportar o rectificar de nuestra parte. Limpiar el almacenamiento del navegador (o usar la opción \"Clear data\" en el builder) elimina todos los datos locales."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Preguntas: ",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Volver a ResumeFlow"
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "effectiveDate": "Fecha de efecto: julio 2025",
+    "service": {
+      "title": "Servicio",
+      "description": "ResumeFlow (resumeflow.fun) es una herramienta gratuita y de código abierto para crear y analizar CVs. Proporcionada \"tal cual\" sin garantías de ningún tipo — ni expresas ni implícitas."
+    },
+    "yourContent": {
+      "title": "Tu contenido",
+      "description": "Eres dueño de los datos de tu CV. No reclamamos ningún derecho sobre ellos. Los datos se quedan en tu navegador — nunca los vemos, almacenamos ni procesamos en nuestros servidores."
+    },
+    "acceptableUse": {
+      "title": "Uso aceptable",
+      "1": "No uses el analizador para extraer información personal de CVs que no te pertenecen o no tienes permiso para procesar.",
+      "2": "No intentes sobrecargar, hacer ingeniería inversa o eludir ninguna parte del servicio.",
+      "3": "No uses el servicio para ningún propósito ilegal o no autorizado."
+    },
+    "openSource": {
+      "title": "Código abierto",
+      "description": "El código fuente está bajo licencia MIT. Eres libre de hacerle fork, modificarlo, auto-hospedarlo y redistribuirlo según los términos de la licencia."
+    },
+    "noLiability": {
+      "title": "Sin responsabilidad",
+      "description": "No somos responsables de ningún daño derivado del uso o imposibilidad de usar el servicio, incluyendo problemas de formato, errores de análisis, oportunidades de empleo perdidas o pérdida de datos en el almacenamiento del navegador."
+    },
+    "changes": {
+      "title": "Cambios",
+      "description": "Podemos actualizar estos términos. El uso continuado después de cambios constituye aceptación."
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Volver a ResumeFlow"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "nav": {
+    "ariaHeader": "Site Header",
+    "ariaNav": "Site Nav Bar",
+    "logoSrLabel": "ResumeFlow",
+    "logoAlt": "ResumeFlow Logo",
+    "builder": "Builder",
+    "parser": "Parser"
+  },
+  "hero": {
+    "titleLine1": "Build a clean, professional",
+    "titleLine2": "resume in minutes",
+    "subtitle": "Free, open-source, and privacy-first. No account needed — your data stays in your browser.",
+    "cta": "Start Building",
+    "noSignup": "No sign up required",
+    "existingResume": "Already have a resume? Check its ATS readability with the",
+    "parserLink": "resume parser"
+  },
+  "steps": {
+    "title": "How it works",
+    "step1Title": "Import or start fresh",
+    "step1Text": "Upload a PDF to auto-fill fields, or build from scratch",
+    "step2Title": "Preview and edit",
+    "step2Text": "See the formatted result instantly — tweak content, fonts, spacing",
+    "step3Title": "Download and apply",
+    "step3Text": "Export a polished PDF that passes ATS checks"
+  },
+  "features": {
+    "alt": "ResumeFlow feature",
+    "freeTitle": "Free Forever",
+    "freeText": "No subscriptions, no locked features, no upsells. Every template, font, and export option is free.",
+    "usTitle": "ATS-Ready by Default",
+    "usText": "Single-column layout, standard section order, no photos or graphics — everything structured for Greenhouse, Lever, Workday, and other ATS.",
+    "privacyTitle": "Local-First Privacy",
+    "privacyText": "Your resume data never leaves your browser. Stored in localStorage, no server, no account, no tracking.",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "Built on the OpenResume project. Full source code on GitHub — audit it, fork it, contribute back.",
+    "openSourceLink": "View on GitHub"
+  },
+  "testimonials": {
+    "title": "Why people choose ResumeFlow",
+    "metrics": [
+      {
+        "value": "Thousands of",
+        "label": "resumes created"
+      },
+      {
+        "value": "ATS-ready",
+        "label": "by design"
+      },
+      {
+        "value": "0",
+        "label": "data on our servers"
+      }
+    ],
+    "personas": [
+      {
+        "icon": "graduation-cap",
+        "title": "Students & Graduates",
+        "description": "First CV, internships, entry-level roles — clean format that passes every ATS"
+      },
+      {
+        "icon": "briefcase",
+        "title": "Career Switchers",
+        "titleHighlight": "IT / Tech",
+        "description": "Highlight transferable skills, projects, and certifications in a parser-friendly layout"
+      },
+      {
+        "icon": "user-check",
+        "title": "Senior Professionals",
+        "description": "Condense 15+ years into a crisp, scannable resume — done in 5 minutes"
+      }
+    ],
+    "parserCTA": {
+      "text": "Already have a resume?",
+      "linkText": "Check it in the parser →",
+      "href": "/resume-parser"
+    }
+  },
+  "qa": {
+    "title": "Common Questions",
+    "q1": "What is a resume builder and how is it different from a template?",
+    "a1p1": "A template (Word, Google Docs) gives you a blank structure — you manually format every section, adjust spacing, fix bullet alignment. A resume builder handles layout automatically: you enter content, it renders a consistent, print-ready PDF.",
+    "a1p2": "ResumeFlow goes further: it enforces ATS-friendly structure (single column, standard headings, no photos), lets you swap fonts and spacing in one click, and includes a built-in parser so you can verify how an ATS will read your file before you apply.",
+    "q2": "How is ResumeFlow different from other free builders like Reactive Resume or FlowCV?",
+    "a2p1": "Most builders optimize for visual flexibility — multiple columns, graphics, color themes. ResumeFlow optimizes for parseability:",
+    "a2p1After": "Here's what sets it apart:",
+    "a2Feature1Title": "1. Strict ATS-first design",
+    "a2Feature1Text": "Single column only. Standard section order. No photo field. No decorative elements that confuse parsers. Every default choice is validated against Greenhouse, Lever, and Workday parsing behavior.",
+    "a2Feature2Title": "2. True local-only storage",
+    "a2Feature2Text": "No account creation, no cloud sync, no analytics on your resume content. Data lives in your browser's localStorage. You can even use it offline after first load.",
+    "q3": "How does ResumeFlow handle my resume data?",
+    "a3p1": "All data you enter into the builder is processed and stored locally in your browser — it is never sent to or saved on any server. This means no one, including us, has access to your resume content. You can close the tab and come back later — your data stays on your device until you delete it or clear your browser cache. The only time information leaves your browser is when you click \"Download PDF\".",
+    "q4": "How can the resume parser help if I already have a resume?",
+    "a4p1": "If you already have a resume in PDF or Word, you don't need to rewrite it from scratch — upload it to the parser, and the service will show you how an Applicant Tracking System (ATS) used by most large companies sees it. The parser flags formatting issues invisible to the human eye but that prevent the bot from correctly reading your experience and skills — such as tables, columns, or non-standard fonts that can cause your resume to be rejected before a recruiter even sees it."
+  },
+  "import": {
+    "headingNew": "Import data from an existing resume",
+    "or": "or",
+    "noResumeHeading": "Don't have a resume yet?",
+    "createFromScratch": "Create from scratch",
+    "returningHeading": "You have data saved in browser from prior session",
+    "continueWhereLeftOff": "Continue where I left off",
+    "overrideHeading": "Override data with a new resume",
+    "dropzoneBrowse": "Browse a pdf file or drop it here",
+    "dropzonePrivacy": "File data is used locally and never leaves your browser",
+    "dropzoneRemove": "Remove file",
+    "dropzoneBrowseFile": "Browse file",
+    "dropzoneError": "Only pdf file is supported",
+    "dropzoneImport": "Import and Continue",
+    "dropzoneNoteImport": "Note: Import works best on single column resume",
+    "dropzoneNoteParser": "Note: Parser works best on single column resume",
+    "dropzoneAltPdf": "Add pdf"
+  },
+  "form": {
+    "profile": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Sal Khan",
+      "summaryLabel": "Objective",
+      "summaryPlaceholder": "Entrepreneur and educator obsessed with making education free for anyone",
+      "emailLabel": "Email",
+      "emailPlaceholder": "hello@khanacademy.org",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "(123)456-7890",
+      "websiteLabel": "Website",
+      "websitePlaceholder": "linkedin.com/in/khanacademy",
+      "locationLabel": "Location",
+      "locationPlaceholder": "NYC, NY"
+    },
+    "work": {
+      "addButton": "Add Job",
+      "deleteTooltip": "Delete job",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Khan Academy",
+      "jobTitleLabel": "Job Title",
+      "jobTitlePlaceholder": "Software Engineer",
+      "dateLabel": "Date",
+      "datePlaceholder": "Jun 2022 - Present",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Bullet points"
+    },
+    "education": {
+      "addButton": "Add School",
+      "deleteTooltip": "Delete school",
+      "schoolLabel": "School",
+      "schoolPlaceholder": "Cornell University",
+      "dateLabel": "Date",
+      "datePlaceholder": "May 2018",
+      "degreeLabel": "Degree & Major",
+      "degreePlaceholder": "Bachelor of Science in Computer Engineering",
+      "gpaLabel": "GPA",
+      "gpaPlaceholder": "3.81",
+      "additionalLabel": "Additional Information (Optional)",
+      "additionalPlaceholder": "Free paragraph space to list out additional activities, courses, awards etc"
+    },
+    "project": {
+      "addButton": "Add Project",
+      "deleteTooltip": "Delete project",
+      "nameLabel": "Project Name",
+      "namePlaceholder": "ResumeFlow",
+      "dateLabel": "Date",
+      "datePlaceholder": "Winter 2022",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Bullet points"
+    },
+    "skills": {
+      "listLabel": "Skills List",
+      "listPlaceholder": "Bullet points",
+      "featuredLabel": "Featured Skills (Optional)",
+      "featuredText": "Featured skills is optional to highlight top skills, with more circles mean higher proficiency.",
+      "featuredPlaceholder": "Featured Skill {n}"
+    },
+    "custom": {
+      "label": "Custom Textbox",
+      "placeholder": "Bullet points"
+    },
+    "form": {
+      "hideSection": "Hide section",
+      "showSection": "Show section",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "hideBullets": "Hide bullet points",
+      "showBullets": "Show bullet points"
+    },
+    "theme": {
+      "title": "Resume Setting",
+      "themeColor": "Theme Color",
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size (pt)",
+      "documentSize": "Document Size",
+      "compact": "Compact",
+      "standard": "Standard",
+      "large": "Large",
+      "letter": "Letter",
+      "letterSub": "(US, Canada)",
+      "a4": "A4",
+      "a4Sub": "(other countries)"
+    }
+  },
+  "controlBar": {
+    "autoscale": "Autoscale",
+    "download": "Download Resume"
+  },
+  "parser": {
+    "pageTitle": "ATS Resume Parser Test",
+    "pageDescription": "Upload a resume PDF to see exactly what an Applicant Tracking System extracts. The more fields parsed correctly, the better your chances of passing automated screening.",
+    "exampleTitle": "Example {n}",
+    "example1Desc": "Sample resume from University of La Verne Career Center —",
+    "example1Link": "View source",
+    "example2Desc": "Built with ResumeFlow builder —",
+    "example2Link": "View source",
+    "addResumeBefore": "Or",
+    "addResumeBold": "test your own resume",
+    "addResumeAfter": "to check how well it parses. At minimum, your name and email should be recognized accurately.",
+    "sectionTitle": "Parsing Results",
+    "selectExample": "Select an example or upload your resume to see parsing results.",
+    "loading": "Loading PDF and parsing...",
+    "tableProfile": "Profile",
+    "tableName": "Name",
+    "tableEmail": "Email",
+    "tablePhone": "Phone",
+    "tableLocation": "Location",
+    "tableLink": "Link",
+    "tableSummary": "Summary",
+    "tableEducation": "Education",
+    "tableSchool": "School",
+    "tableDegree": "Degree",
+    "tableGpa": "GPA",
+    "tableDate": "Date",
+    "tableDescriptions": "Descriptions",
+    "tableWorkExperience": "Work Experience",
+    "tableCompany": "Company",
+    "tableJobTitle": "Job Title",
+    "tableProjects": "Projects",
+    "tableProject": "Project",
+    "tableSkills": "Skills"
+  },
+  "algorithm": {
+    "title": "How the Parser Works",
+    "intro": "Technical overview of the ResumeFlow parsing pipeline — four stages from raw PDF to structured JSON. Designed for single-column English resumes.",
+    "step1Title": "Step 1. Extract text items from PDF",
+    "step1p1": "PDF is a binary format per the",
+    "step1IsoLink": "ISO 32000 specification",
+    "step1p1After": ". Raw content is encoded; we use Mozilla's",
+    "step1PdfjsLink": "pdf.js",
+    "step1p2": "to decode and pull every text item with its metadata (x/y position, font weight, line breaks).",
+    "step1p2After": "",
+    "step1p3": "The table below shows {n} extracted text items. Each item carries content plus positional metadata — coordinates relative to the page origin (bottom-left = 0,0), bold flag, line-break flag.",
+    "step1TableHeader": ["#", "Text Content", "Metadata"],
+    "step2Title": "Step 2. Group items into lines",
+    "step2Intro": "Raw items have two problems:",
+    "step2Issue1Title": "Issue 1: Fragmentation",
+    "step2Issue1Text": "A single logical token — like a phone number \"(123) 456-7890\" — often splits across multiple items due to font changes or PDF encoding quirks.",
+    "step2Solution1Title": "Fix:",
+    "step2Solution1Text": "Merge adjacent items when horizontal gap is smaller than average character width. Distance = RightItemX₁ − LeftItemX₂. Average width = total item widths / total characters (excluding bold markers and line breaks).",
+    "step2Solution1Formula": "Distance = RightItemX₁ - LeftItemX₂",
+    "step2Solution1After": "",
+    "step2Issue2Title": "Issue 2: Missing context",
+    "step2Issue2Text": "Humans read line by line, using boldness and proximity to group related text. Items lack this structure — they're a flat list.",
+    "step2Solution2Title": "Fix:",
+    "step2Solution2Text": "Reconstruct lines by clustering items with similar Y-coordinates, then order left-to-right. This restores the visual reading order.",
+    "step2TableHeader": ["Lines", "Line Content"],
+    "step3Title": "Step 3. Group lines into sections",
+    "step3p1": "Identify section headers by heuristic: bold text + short length. Everything following a header belongs to that section until the next header appears.",
+    "step3p2": "Detected sections ({n} total): headers shown in",
+    "step3p2Bold": "bold",
+    "step3p2After": ", member lines color-coded by section.",
+    "step3TableHeader": ["Lines", "Line Content"],
+    "step3ProfileLabel": "PROFILE",
+    "step4Title": "Step 4. Extract structured fields",
+    "step4Sub1": "Feature Scoring",
+    "step4Sub1Text": "For each target field (name, email, phone), candidate text lines are scored against a set of feature functions. Highest score wins.",
+    "step4TableHeader": ["Resume Attribute", "Top Candidate (Score)", "Other Candidates"],
+    "step4Name": "Name",
+    "step4Email": "Email",
+    "step4Phone": "Phone",
+    "step4DynamicText": "In the uploaded resume, the name field is likely \"{name}\" with a feature score of {score} out of 5.",
+    "step4Sub2": "Feature Functions",
+    "step4Sub3": "Core Feature Functions",
+    "step4Sub4": "Special Case: Subsections",
+    "step4Sub4Text": "Some sections like Work Experience contain repeating sub-items (each job is a subsection). The parser detects these by finding bold lines that don't match section headers, then groups subsequent lines until the next bold line or section boundary. Each subsection is scored independently against the feature functions.",
+    "step4FeatureSetsTableTitle": "Name Feature Set",
+    "step4FeatureSetsTableHeader": ["Feature Function", "Score Impact"],
+    "step4Feature1": "Letters, spaces, periods only",
+    "step4Feature2": "Bold formatting",
+    "step4Feature3": "All uppercase",
+    "step4Feature4": "Contains @",
+    "step4Feature5": "Contains digits",
+    "step4Feature6": "Contains comma",
+    "step4Feature7": "Contains slash",
+    "step4ScoreMatchEmail": "−4 (matches email pattern)",
+    "step4ScoreMatchPhone": "−4 (matches phone pattern)",
+    "step4ScoreMatchAddress": "−4 (matches address pattern)",
+    "step4ScoreMatchUrl": "−4 (matches URL pattern)",
+    "step4Score3": "+3",
+    "step4Score2": "+2",
+    "step4CoreTableHeader": ["Attribute", "Core Feature", "Regex"],
+    "step4CoreName": "Letters, spaces, periods only",
+    "step4CoreEmail": "Email format: non-space @ non-space . non-space",
+    "step4CorePhone": "Phone: (xxx) xxx-xxxx with optional parens/dash",
+    "step4CoreLocation": "City, ST format",
+    "step4CoreUrl": "URL format: domain.tld/path",
+    "step4CoreSchool": "Contains school keyword (College, University, School)",
+    "step4CoreDegree": "Contains degree keyword (Associate, Bachelor, Master, PhD)",
+    "step4CoreGpa": "GPA format: x.xx",
+    "step4CoreDate": "Date keywords: year, month, season, Present",
+    "step4CoreJobTitle": "Contains title keyword (Analyst, Engineer, Intern, Manager)",
+    "step4CoreCompany": "Bold or doesn't match title/date patterns",
+    "step4CoreProject": "Bold or doesn't match date pattern",
+    "conclusion": "That covers the ResumeFlow parsing pipeline.",
+    "attribution": "Based on the OpenResume parser by Xitang Zhao (June 2023)",
+    "attributionName": "OpenResume"
+  },
+  "demo": {
+    "name": "John Doe",
+    "summary": "Software engineer obsessed with building exceptional products that people love",
+    "phone": "123-456-7890",
+    "location": "NYC, NY",
+    "url": "linkedin.com/in/john-doe",
+    "work1Company": "ABC Company",
+    "work1Title": "Software Engineer",
+    "work1Date": "May 2023 - Present",
+    "work1Desc1": "Lead a cross-functional team of 5 engineers in developing a search bar, which enables thousands of daily active users to search content across the entire platform",
+    "work1Desc2": "Create stunning home page product demo animations that drives up sign up rate by 20%",
+    "work1Desc3": "Write clean code that is modular and easy to maintain while ensuring 100% test coverage",
+    "work2Company": "DEF Organization",
+    "work2Title": "Software Engineer Intern",
+    "work2Date": "Summer 2022",
+    "work2Desc1": "Re-architected the existing content editor to be mobile responsive that led to a 10% increase in mobile user engagement",
+    "work2Desc2": "Created a progress bar to help users track progress that drove up user retention by 15%",
+    "work2Desc3": "Discovered and fixed 5 bugs in the existing codebase to enhance user experience",
+    "work3Company": "XYZ University",
+    "work3Title": "Research Assistant",
+    "work3Date": "Summer 2021",
+    "work3Desc1": "Devised a new NLP algorithm in text classification that results in 10% accuracy increase",
+    "work3Desc2": "Compiled and presented research findings to a group of 20+ faculty and students",
+    "eduSchool": "XYZ University",
+    "eduDegree": "Bachelor of Science in Computer Science",
+    "eduDate": "Sep 2019 - May 2023",
+    "eduGpa": "3.8",
+    "eduDesc1": "Won 1st place in 2022 Education Hackathon, 2nd place in 2023 Health Tech Competition",
+    "eduDesc2": "Teaching Assistant for Programming for the Web (2022 - 2023)",
+    "eduDesc3": "Coursework: Object-Oriented Programming (A+), Programming for the Web (A+), Cloud Computing (A), Introduction to Machine Learning (A-), Algorithms Analysis (A-)",
+    "sectionWorkExperience": "WORK EXPERIENCE",
+    "sectionEducation": "EDUCATION",
+    "sectionProject": "PROJECT",
+    "sectionSkills": "SKILLS",
+    "sectionCustom": "CUSTOM SECTION",
+    "projectName": "ResumeFlow",
+    "projectDate": "Spring 2023",
+    "projectDesc1": "Created and launched a free resume builder web app that allows thousands of users to create professional resume easily and land their dream jobs",
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "Python",
+    "skill4": "TypeScript",
+    "skill5": "React",
+    "skill6": "C++",
+    "techSkills": "Tech: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+    "softSkills": "Soft: Teamwork, Creative Problem Solving, Communication, Learning Mindset, Agile"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effectiveDate": "Effective date: July 2025",
+    "dataWeCollect": {
+      "title": "Data We Collect",
+      "none": "None.",
+      "description": "Your resume content — name, experience, education, skills, and all other fields — is stored exclusively in your browser's localStorage. It never touches our servers. No account creation, no email required, no tracking of resume content."
+    },
+    "analyticsAds": {
+      "title": "Analytics & Advertising",
+      "ym": {
+        "title": "Yandex Metrica / RSYA",
+        "desc": "Aggregate, anonymized traffic statistics. IP addresses are masked. You can opt out via browser Do Not Track or by disabling JavaScript."
+      },
+      "cf": {
+        "title": "Cloudflare Web Analytics",
+        "desc": "Privacy-first, no cookies, no personal data collected."
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "fonts": {
+        "title": "Fonts",
+        "desc": "Self-hosted on our domain, no requests to Google Fonts."
+      },
+      "github": {
+        "title": "GitHub",
+        "desc": "Only if you click \"View on GitHub\" links."
+      }
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "description": "Since we don't store your data, there's nothing to delete, export, or rectify on our end. Clearing your browser storage (or using the \"Clear data\" option in the builder) removes all local data."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Questions: ",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Back to ResumeFlow"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "effectiveDate": "Effective date: July 2025",
+    "service": {
+      "title": "Service",
+      "description": "ResumeFlow (resumeflow.fun) is a free, open-source tool for creating and parsing resumes. Provided \"as is\" without warranties of any kind — express or implied."
+    },
+    "yourContent": {
+      "title": "Your Content",
+      "description": "You own your resume data. We claim no rights to it. Data stays in your browser — we never see it, store it, or process it on our servers."
+    },
+    "acceptableUse": {
+      "title": "Acceptable Use",
+      "1": "Do not use the parser to extract personal information from resumes you don't own or have permission to process.",
+      "2": "Do not attempt to overload, reverse-engineer, or circumvent any part of the service.",
+      "3": "Do not use the service for any illegal or unauthorized purpose."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "The source code is licensed under MIT. You are free to fork, modify, self-host, and redistribute per the license terms."
+    },
+    "noLiability": {
+      "title": "No Liability",
+      "description": "We are not responsible for any damages arising from use or inability to use the service, including formatting issues, parsing errors, missed job opportunities, or data loss in browser storage."
+    },
+    "changes": {
+      "title": "Changes",
+      "description": "We may update these terms. Continued use after changes constitutes acceptance."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Back to ResumeFlow"
+  }
+}

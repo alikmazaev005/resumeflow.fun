@@ -12,8 +12,10 @@ import {
   changeShowBulletPoints,
   selectShowBulletPoints,
 } from "lib/redux/settingsSlice";
+import { useT } from "lib/i18n/context";
 
 export const EducationsForm = () => {
+  const t = useT();
   const educations = useAppSelector(selectEducations);
   const dispatch = useAppDispatch();
   const showDelete = educations.length > 1;
@@ -21,7 +23,7 @@ export const EducationsForm = () => {
   const showBulletPoints = useAppSelector(selectShowBulletPoints(form));
 
   return (
-    <Form form={form} addButtonText="Add School">
+    <Form form={form} addButtonText={t("form.education.addButton")}>
       {educations.map(({ school, degree, gpa, date, descriptions }, idx) => {
         const handleEducationChange = (
           ...[
@@ -47,46 +49,46 @@ export const EducationsForm = () => {
             showMoveUp={showMoveUp}
             showMoveDown={showMoveDown}
             showDelete={showDelete}
-            deleteButtonTooltipText="Delete school"
+            deleteButtonTooltipText={t("form.education.deleteTooltip")}
           >
             <Input
-              label="School"
+              label={t("form.education.schoolLabel")}
               labelClassName="col-span-4"
               name="school"
-              placeholder="Cornell University"
+              placeholder={t("form.education.schoolPlaceholder")}
               value={school}
               onChange={handleEducationChange}
             />
             <Input
-              label="Date"
+              label={t("form.education.dateLabel")}
               labelClassName="col-span-2"
               name="date"
-              placeholder="May 2018"
+              placeholder={t("form.education.datePlaceholder")}
               value={date}
               onChange={handleEducationChange}
             />
             <Input
-              label="Degree & Major"
+              label={t("form.education.degreeLabel")}
               labelClassName="col-span-4"
               name="degree"
-              placeholder="Bachelor of Science in Computer Engineering"
+              placeholder={t("form.education.degreePlaceholder")}
               value={degree}
               onChange={handleEducationChange}
             />
             <Input
-              label="GPA"
+              label={t("form.education.gpaLabel")}
               labelClassName="col-span-2"
               name="gpa"
-              placeholder="3.81"
+              placeholder={t("form.education.gpaPlaceholder")}
               value={gpa}
               onChange={handleEducationChange}
             />
             <div className="relative col-span-full">
               <BulletListTextarea
-                label="Additional Information (Optional)"
+                label={t("form.education.additionalLabel")}
                 labelClassName="col-span-full"
                 name="descriptions"
-                placeholder="Free paragraph space to list out additional activities, courses, awards etc"
+                placeholder={t("form.education.additionalPlaceholder")}
                 value={descriptions}
                 onChange={handleEducationChange}
                 showBulletPoints={showBulletPoints}

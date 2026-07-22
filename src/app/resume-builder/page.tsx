@@ -1,22 +1,15 @@
-"use client";
-import { Provider } from "react-redux";
-import { store } from "lib/redux/store";
-import { ResumeForm } from "components/ResumeForm";
-import { Resume } from "components/Resume";
+import type { Metadata } from "next";
+import ResumeBuilderClient from "./ResumeBuilderClient";
 
-export default function Create() {
-  return (
-    <Provider store={store}>
-      <main className="relative h-full w-full overflow-hidden bg-gray-50">
-        <div className="grid grid-cols-3 md:grid-cols-6">
-          <div className="col-span-3">
-            <ResumeForm />
-          </div>
-          <div className="col-span-3">
-            <Resume />
-          </div>
-        </div>
-      </main>
-    </Provider>
-  );
+export const metadata: Metadata = {
+  title: "Resume Builder — Create Your Resume Step by Step | ResumeFlow",
+  description:
+    "Build a professional resume step by step with our free, privacy-first resume builder. No signup required. ATS-friendly templates, multiple themes, instant PDF export.",
+  alternates: {
+    canonical: "https://resumeflow.fun/resume-builder",
+  },
+};
+
+export default function ResumeBuilderPage() {
+  return <ResumeBuilderClient />;
 }

@@ -1,3 +1,4 @@
+"use client";
 import type { GeneralSetting } from "lib/redux/settingsSlice";
 import { PX_PER_PT } from "lib/constants";
 import {
@@ -7,6 +8,7 @@ import {
 } from "components/fonts/constants";
 import { getAllFontFamiliesToLoad } from "components/fonts/lib";
 import dynamic from "next/dynamic";
+import { useT } from "lib/i18n/context";
 
 const Selection = ({
   selectedColor,
@@ -103,12 +105,15 @@ export const FontSizeSelections = ({
   selectedFontSize: string;
   handleSettingsChange: (field: GeneralSetting, value: string) => void;
 }) => {
+  const t = useT();
   const standardSizePt = FONT_FAMILY_TO_STANDARD_SIZE_IN_PT[fontFamily];
   const compactSizePt = standardSizePt - 1;
 
+  const sizeLabels = [t("form.theme.compact"), t("form.theme.standard"), t("form.theme.large")];
+
   return (
     <SelectionsWrapper>
-      {["Compact", "Standard", "Large"].map((type, idx) => {
+      {sizeLabels.map((type, idx) => {
         const fontSizePt = String(compactSizePt + idx);
         const isSelected = fontSizePt === selectedFontSize;
         return (
@@ -139,21 +144,25 @@ export const DocumentSizeSelections = ({
   selectedDocumentSize: string;
   handleSettingsChange: (field: GeneralSetting, value: string) => void;
 }) => {
+  const t = useT();
+  const docTypes = [
+    { label: t("form.theme.letter"), sub: t("form.theme.letterSub"), value: "Letter" },
+    { label: t("form.theme.a4"), sub: t("form.theme.a4Sub"), value: "A4" },
+  ];
+
   return (
     <SelectionsWrapper>
-      {["Letter", "A4"].map((type, idx) => {
+      {docTypes.map(({ label, sub, value }, idx) => {
         return (
           <Selection
             key={idx}
             selectedColor={themeColor}
-            isSelected={type === selectedDocumentSize}
-            onClick={() => handleSettingsChange("documentSize", type)}
+            isSelected={value === selectedDocumentSize}
+            onClick={() => handleSettingsChange("documentSize", value)}
           >
             <div className="flex flex-col items-center">
-              <div>{type}</div>
-              <div className="text-xs">
-                {type === "Letter" ? "(US, Canada)" : "(other countries)"}
-              </div>
+              <div>{label}</div>
+              <div className="text-xs">{sub}</div>
             </div>
           </Selection>
         );

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://resumeflow.fun/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh/resume-builder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-builder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-builder" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh/resume-parser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-parser" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-parser" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-import" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-import" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-import" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-import" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-import" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/resume-import" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh/resume-import</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/resume-import" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/resume-import" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/privacy" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/ru/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://resumeflow.fun/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://resumeflow.fun/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/de/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://resumeflow.fun/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/fr/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://resumeflow.fun/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/es/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://resumeflow.fun/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+  <url>
+    <loc>https://resumeflow.fun/zh/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://resumeflow.fun/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://resumeflow.fun/terms" />
+  </url>
+</urlset>

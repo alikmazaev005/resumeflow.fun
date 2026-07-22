@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { usePDF } from "@react-pdf/renderer";
 import dynamic from "next/dynamic";
+import { useT } from "lib/i18n/context";
 
 const ResumeControlBar = ({
   scale,
@@ -21,6 +22,7 @@ const ResumeControlBar = ({
   document: JSX.Element;
   fileName: string;
 }) => {
+  const t = useT();
   const { scaleOnResize, setScaleOnResize } = useSetDefaultScale({
     setScale,
     documentSize,
@@ -56,7 +58,7 @@ const ResumeControlBar = ({
             checked={scaleOnResize}
             onChange={() => setScaleOnResize((prev) => !prev)}
           />
-          <span className="select-none">Autoscale</span>
+          <span className="select-none">{t("controlBar.autoscale")}</span>
         </label>
       </div>
       <a
@@ -65,7 +67,7 @@ const ResumeControlBar = ({
         download={fileName}
       >
         <ArrowDownTrayIcon className="h-4 w-4" />
-        <span className="whitespace-nowrap">Download Resume</span>
+        <span className="whitespace-nowrap">{t("controlBar.download")}</span>
       </a>
     </div>
   );

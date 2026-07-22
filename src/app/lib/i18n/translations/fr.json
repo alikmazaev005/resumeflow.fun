@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "ariaHeader": "En-tête du site",
+    "ariaNav": "Barre de navigation du site",
+    "logoSrLabel": "ResumeFlow",
+    "logoAlt": "Logo ResumeFlow",
+    "builder": "Constructeur",
+    "parser": "Analyseur"
+  },
+  "hero": {
+    "titleLine1": "Créez un CV",
+    "titleLine2": "propre et professionnel en minutes",
+    "subtitle": "Gratuit, open-source, la vie privée d'abord. Pas de compte — vos données restent dans votre navigateur.",
+    "cta": "Commencer",
+    "noSignup": "Aucune inscription requise",
+    "existingResume": "Vous avez déjà un CV ? Vérifiez sa lisibilité ATS avec",
+    "parserLink": "l'analyseur de CV"
+  },
+  "steps": {
+    "title": "Comment ça marche",
+    "step1Title": "Importer ou partir de zéro",
+    "step1Text": "Chargez un PDF pour remplir les champs, ou créez à partir de rien",
+    "step2Title": "Aperçu et modification",
+    "step2Text": "Voyez le résultat formaté instantanément — ajustez contenu, polices, espacements",
+    "step3Title": "Téléchargez et postulez",
+    "step3Text": "Exportez un PDF soigné qui passe les vérifications ATS"
+  },
+  "features": {
+    "alt": "Fonctionnalité ResumeFlow",
+    "freeTitle": "Gratuit pour toujours",
+    "freeText": "Aucun abonnement, aucune fonctionnalité verrouillée, aucun upsell. Tous les modèles, polices et options d'export sont gratuits.",
+    "usTitle": "Prêt pour l'ATS par défaut",
+    "usText": "Mise en page à une colonne, ordre standard des sections, pas de photos ni graphiques — tout est structuré pour Greenhouse, Lever, Workday et autres ATS.",
+    "privacyTitle": "Vie privée locale d'abord",
+    "privacyText": "Vos données de CV ne quittent jamais votre navigateur. Stockées dans localStorage, pas de serveur, pas de compte, pas de tracking.",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "Construit sur le projet OpenResume. Code source complet sur GitHub — auditez-le, forkuez-le, contribuez.",
+    "openSourceLink": "Voir sur GitHub"
+  },
+  "testimonials": {
+    "title": "Pourquoi choisir ResumeFlow",
+    "metrics": [
+      {
+        "value": "Des milliers",
+        "label": "de CV créés"
+      },
+      {
+        "value": "ATS-ready",
+        "label": "par défaut"
+      },
+      {
+        "value": "0",
+        "label": "données sur nos serveurs"
+      }
+    ],
+    "personas": [
+      {
+        "icon": "graduation-cap",
+        "title": "Étudiants & Diplômés",
+        "description": "Premier CV, stages, postes junior — format propre qui passe tous les ATS"
+      },
+      {
+        "icon": "briefcase",
+        "title": "Reconversion pro",
+        "titleHighlight": "IT / Tech",
+        "description": "Mettez en avant compétences transférables, projets et certifications en layout parser-friendly"
+      },
+      {
+        "icon": "user-check",
+        "title": "Professionnels confirmés",
+        "description": "15+ ans d'expérience en CV scannable et percutant — prêt en 5 minutes"
+      }
+    ],
+    "parserCTA": {
+      "text": "Vous avez déjà un CV ?",
+      "linkText": "Tester dans le parser →",
+      "href": "/resume-parser"
+    }
+  },
+  "qa": {
+    "title": "Questions fréquentes",
+    "q1": "Qu'est-ce qu'un constructeur de CV et en quoi diffère-t-il d'un modèle ?",
+    "a1p1": "Un modèle (Word, Google Docs) donne une structure vide — vous formatez chaque section manuellement, ajustez espacements, corrigez l'alignement des puces. Un constructeur gère la mise en page automatiquement : vous entrez le contenu, il génère un PDF cohérent prêt à imprimer.",
+    "a1p2": "ResumeFlow va plus loin : il impose une structure ATS-friendly (une colonne, titres standards, pas de photos), permet de changer polices et espacements en un clic, et inclut un parser intégré pour vérifier comment un ATS lira votre fichier avant de postuler.",
+    "q2": "Comment ResumeFlow diffère-t-il des autres constructeurs gratuits comme Reactive Resume ou FlowCV ?",
+    "a2p1": "La plupart optimisent pour la flexibilité visuelle — colonnes multiples, graphiques, thèmes de couleurs. ResumeFlow optimise pour la parsabilité :",
+    "a2p1After": "Voici ce qui nous distingue :",
+    "a2Feature1Title": "1. Design strict ATS-first",
+    "a2Feature1Text": "Une seule colonne. Ordre standard des sections. Pas de champ photo. Pas d'éléments décoratifs qui perturbent les parsers. Chaque choix par défaut est validé contre le comportement de parsing de Greenhouse, Lever et Workday.",
+    "a2Feature2Title": "2. Vrai stockage local uniquement",
+    "a2Feature2Text": "Pas de création de compte, pas de sync cloud, pas d'analytics sur votre contenu de CV. Données dans localStorage du navigateur. Utilisable même hors ligne après premier chargement.",
+    "q3": "Comment ResumeFlow gère-t-il les données de mon CV ?",
+    "a3p1": "Toutes les données que vous saisissez dans le constructeur sont traitées et stockées localement dans votre navigateur — elles ne sont jamais envoyées ni sauvegardées sur aucun serveur. Cela signifie que personne, y compris nous, n'a accès au contenu de votre CV. Vous pouvez fermer l'onglet et revenir plus tard — vos données restent sur votre appareil jusqu'à ce que vous les supprimiez ou vidiez le cache du navigateur. Le seul moment où l'information quitte le navigateur est quand vous cliquez sur « Télécharger PDF ».",
+    "q4": "En quoi l'analyseur de CV peut-il aider si j'ai déjà un CV ?",
+    "a4p1": "Si vous avez déjà un CV en PDF ou Word, pas besoin de le réécrire à zéro — uploadez-le dans l'analyseur, et le service vous montrera comment un système de suivi des candidatures (ATS) utilisé par la plupart des grandes entreprises le lit. L'analyseur signale les problèmes de formatage invisibles à l'œil humain mais qui empêchent le bot de lire correctement votre expérience et vos compétences — comme les tableaux, colonnes ou polices non standards qui peuvent faire rejeter votre CV avant qu'un recruteur ne le voie."
+  },
+  "import": {
+    "headingNew": "Importer des données d'un CV existant",
+    "or": "ou",
+    "noResumeHeading": "Pas encore de CV ?",
+    "createFromScratch": "Créer à partir de zéro",
+    "returningHeading": "Vous avez des données sauvegardées dans le navigateur d'une session précédente",
+    "continueWhereLeftOff": "Continuer où je m'étais arrêté",
+    "overrideHeading": "Remplacer les données par un nouveau CV",
+    "dropzoneBrowse": "Parcourez un fichier PDF ou déposez-le ici",
+    "dropzonePrivacy": "Les données du fichier sont utilisées localement et ne quittent jamais votre navigateur",
+    "dropzoneRemove": "Supprimer le fichier",
+    "dropzoneBrowseFile": "Parcourir",
+    "dropzoneError": "Seul le format PDF est pris en charge",
+    "dropzoneImport": "Importer et continuer",
+    "dropzoneNoteImport": "Note : L'import fonctionne mieux sur un CV à une colonne",
+    "dropzoneNoteParser": "Note : L'analyseur fonctionne mieux sur un CV à une colonne",
+    "dropzoneAltPdf": "Ajouter PDF"
+  },
+  "form": {
+    "profile": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Sal Khan",
+      "summaryLabel": "Objectif",
+      "summaryPlaceholder": "Entrepreneur et éducateur passionné par rendre l'éducation gratuite pour tous",
+      "emailLabel": "Email",
+      "emailPlaceholder": "hello@khanacademy.org",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "(123)456-7890",
+      "websiteLabel": "Site web",
+      "websitePlaceholder": "linkedin.com/in/khanacademy",
+      "locationLabel": "Localisation",
+      "locationPlaceholder": "Paris, France"
+    },
+    "work": {
+      "addButton": "Ajouter un emploi",
+      "deleteTooltip": "Supprimer l'emploi",
+      "companyLabel": "Entreprise",
+      "companyPlaceholder": "Khan Academy",
+      "jobTitleLabel": "Poste",
+      "jobTitlePlaceholder": "Ingénieur logiciel",
+      "dateLabel": "Date",
+      "datePlaceholder": "Juin 2022 - Présent",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Points clés"
+    },
+    "education": {
+      "addButton": "Ajouter un établissement",
+      "deleteTooltip": "Supprimer l'établissement",
+      "schoolLabel": "Établissement",
+      "schoolPlaceholder": "Université Cornell",
+      "dateLabel": "Date",
+      "datePlaceholder": "Mai 2018",
+      "degreeLabel": "Diplôme et spécialité",
+      "degreePlaceholder": "Bachelor of Science in Computer Engineering",
+      "gpaLabel": "Moyenne",
+      "gpaPlaceholder": "3,81",
+      "additionalLabel": "Informations complémentaires (optionnel)",
+      "additionalPlaceholder": "Espace libre pour lister activités supplémentaires, cours, prix, etc."
+    },
+    "project": {
+      "addButton": "Ajouter un projet",
+      "deleteTooltip": "Supprimer le projet",
+      "nameLabel": "Nom du projet",
+      "namePlaceholder": "ResumeFlow",
+      "dateLabel": "Date",
+      "datePlaceholder": "Hiver 2022",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Points clés"
+    },
+    "skills": {
+      "listLabel": "Liste de compétences",
+      "listPlaceholder": "Points clés",
+      "featuredLabel": "Compétences vedettes (optionnel)",
+      "featuredText": "Les compétences vedettes sont optionnelles pour mettre en avant les compétences principales, plus de cercles = niveau plus élevé.",
+      "featuredPlaceholder": "Compétence vedette {n}"
+    },
+    "custom": {
+      "label": "Zone de texte personnalisée",
+      "placeholder": "Points clés"
+    },
+    "form": {
+      "hideSection": "Masquer la section",
+      "showSection": "Afficher la section",
+      "moveUp": "Monter",
+      "moveDown": "Descendre",
+      "hideBullets": "Masquer les puces",
+      "showBullets": "Afficher les puces"
+    },
+    "theme": {
+      "title": "Paramètres du CV",
+      "themeColor": "Couleur du thème",
+      "fontFamily": "Famille de polices",
+      "fontSize": "Taille de police (pt)",
+      "documentSize": "Format du document",
+      "compact": "Compact",
+      "standard": "Standard",
+      "large": "Grand",
+      "letter": "Letter",
+      "letterSub": "(États-Unis, Canada)",
+      "a4": "A4",
+      "a4Sub": "(autres pays)"
+    }
+  },
+  "controlBar": {
+    "autoscale": "Mise à l'échelle auto",
+    "download": "Télécharger le CV"
+  },
+  "parser": {
+    "pageTitle": "Test ATS de l'analyseur de CV",
+    "pageDescription": "Uploadez un CV en PDF pour voir exactement ce qu'un système de suivi des candidatures (ATS) extrait. Plus les champs sont correctement parsés, meilleures sont vos chances de passer le filtrage automatique.",
+    "exampleTitle": "Exemple {n}",
+    "example1Desc": "Exemple de CV du Centre de carrière de l'Université de La Verne —",
+    "example1Link": "Voir la source",
+    "example2Desc": "Créé avec le constructeur ResumeFlow —",
+    "example2Link": "Voir la source",
+    "addResumeBefore": "Ou",
+    "addResumeBold": "testez votre propre CV",
+    "addResumeAfter": "pour vérifier comment il se parse. Au minimum, votre nom et email doivent être reconnus avec précision.",
+    "sectionTitle": "Résultats du parsing",
+    "selectExample": "Sélectionnez un exemple ou téléchargez votre CV pour voir les résultats d'analyse.",
+    "loading": "Chargement du PDF et analyse en cours...",
+    "tableProfile": "Profil",
+    "tableName": "Nom",
+    "tableEmail": "Email",
+    "tablePhone": "Téléphone",
+    "tableLocation": "Localisation",
+    "tableLink": "Lien",
+    "tableSummary": "Résumé",
+    "tableEducation": "Formation",
+    "tableSchool": "Établissement",
+    "tableDegree": "Diplôme",
+    "tableGpa": "Moyenne",
+    "tableDate": "Date",
+    "tableDescriptions": "Descriptions",
+    "tableWorkExperience": "Expérience professionnelle",
+    "tableCompany": "Entreprise",
+    "tableJobTitle": "Poste",
+    "tableProjects": "Projets",
+    "tableProject": "Projet",
+    "tableSkills": "Compétences"
+  },
+  "algorithm": {
+    "title": "Comment fonctionne l'analyseur",
+    "intro": "Aperçu technique du pipeline de parsing ResumeFlow — quatre étapes du PDF brut au JSON structuré. Conçu pour CV anglais à une colonne.",
+    "step1Title": "Étape 1. Extraire les éléments textuels du PDF",
+    "step1p1": "Le PDF est un format binaire selon la",
+    "step1IsoLink": "spécification ISO 32000",
+    "step1p1After": ". Le contenu brut est encodé ; nous utilisons",
+    "step1PdfjsLink": "pdf.js",
+    "step1p2After": "de Mozilla pour décoder et extraire chaque élément textuel avec ses métadonnées (position x/y, graisse de police, sauts de ligne).",
+    "step1p3": "Le tableau ci-dessous montre {n} éléments textuels extraits. Chaque élément porte le contenu plus métadonnées positionnelles — coordonnées relatives à l'origine de la page (coin bas-gauche = 0,0), drapeau gras, drapeau saut de ligne.",
+    "step1TableHeader": ["#", "Contenu textuel", "Métadonnées"],
+    "step2Title": "Étape 2. Regrouper les éléments en lignes",
+    "step2Intro": "Les éléments bruts ont deux problèmes :",
+    "step2Issue1Title": "Problème 1 : Fragmentation",
+    "step2Issue1Text": "Un token logique unique — comme un numéro de téléphone \"(123) 456-7890\" — se scinde souvent en plusieurs éléments à cause de changements de police ou bizarreries d'encodage PDF.",
+    "step2Solution1Title": "Correctif :",
+    "step2Solution1Text": "Fusionner les éléments adjacents quand l'écart horizontal est plus petit que la largeur moyenne d'un caractère. Distance = X_ÉlémentDroit₁ − X_ÉlémentGauche₂. Largeur moyenne = largeurs totales / total caractères (marqueurs gras et sauts de ligne exclus).",
+    "step2Solution1Formula": "Distance = X_ÉlémentDroit₁ - X_ÉlémentGauche₂",
+    "step2Solution1After": "",
+    "step2Issue2Title": "Problème 2 : Contexte manquant",
+    "step2Issue2Text": "Humains lisent ligne par ligne, utilisant gras et proximité pour grouper le texte lié. Les éléments n'ont cette structure pas — liste plate.",
+    "step2Solution2Title": "Correctif :",
+    "step2Solution2Text": "Reconstruire les lignes par clustering d'éléments aux Y-coordonnées similaires, puis ordonner gauche-droite. Restaure l'ordre de lecture visuel.",
+    "step2TableHeader": ["Lignes", "Contenu de la ligne"],
+    "step3Title": "Étape 3. Regrouper les lignes en sections",
+    "step3p1": "Identifier les en-têtes de section par heuristique : texte bold + longueur courte. Tout ce qui suit un en-tête lui appartient jusqu'au suivant.",
+    "step3p2": "Sections détectées ({n} total) : en-têtes en",
+    "step3p2Bold": "gras",
+    "step3p2After": ", lignes membres colorées par section.",
+    "step3TableHeader": ["Lignes", "Contenu de la ligne"],
+    "step3ProfileLabel": "PROFIL",
+    "step4Title": "Étape 4. Extraire les champs structurés",
+    "step4Sub1": "Feature Scoring",
+    "step4Sub1Text": "Pour chaque champ cible (nom, email, téléphone), les lignes candidates sont scorées contre un ensemble de feature functions. Score max gagne.",
+    "step4TableHeader": ["Attribut du CV", "Meilleur candidat (Score)", "Autres candidats"],
+    "step4Name": "Nom",
+    "step4Email": "Email",
+    "step4Phone": "Téléphone",
+    "step4DynamicText": "Dans le CV uploadé, le champ nom est probablement \"{name}\" avec un feature score de {score} sur 5.",
+    "step4Sub2": "Feature Functions",
+    "step4Sub3": "Core Feature Functions",
+    "step4Sub4": "Special Case: Subsections",
+    "step4FeatureSetsTableTitle": "Name Feature Set",
+    "step4FeatureSetsTableHeader": ["Feature Function", "Score Impact"],
+    "step4Feature1": "Lettres, espaces, points seulement",
+    "step4Feature2": "Formatage bold",
+    "step4Feature3": "Tout en majuscules",
+    "step4Feature4": "Contient @",
+    "step4Feature5": "Contient chiffres",
+    "step4Feature6": "Contient virgule",
+    "step4Feature7": "Contient slash",
+    "step4ScoreMatchEmail": "−4 (match email pattern)",
+    "step4ScoreMatchPhone": "−4 (match phone pattern)",
+    "step4ScoreMatchAddress": "−4 (match address pattern)",
+    "step4ScoreMatchUrl": "−4 (match URL pattern)",
+    "step4Score3": "+3",
+    "step4Score2": "+2",
+    "step4CoreTableHeader": ["Attribute", "Core Feature", "Regex"],
+    "step4CoreName": "Lettres, espaces, points seulement",
+    "step4CoreEmail": "Format email: non-espace @ non-espace . non-espace",
+    "step4CorePhone": "Téléphone: (xxx) xxx-xxxx parenthèses/tiret optionnels",
+    "step4CoreLocation": "Format Ville, DÉP",
+    "step4CoreUrl": "Format URL: domain.tld/path",
+    "step4CoreSchool": "Contient mot-clé école (College, University, School)",
+    "step4CoreDegree": "Contient mot-clé diplôme (Associate, Bachelor, Master, PhD)",
+    "step4CoreGpa": "Format GPA: x.xx",
+    "step4CoreDate": "Mots-clés date: année, mois, saison, Present",
+    "step4CoreJobTitle": "Contient mot-clé titre (Analyst, Engineer, Intern, Manager)",
+    "step4CoreCompany": "Bold ou ne match pas titre/date",
+    "step4CoreProject": "Bold ou ne match pas date",
+    "conclusion": "Couvre le pipeline de parsing ResumeFlow.",
+    "attribution": "Basé sur le parser OpenResume par Xitang Zhao (juin 2023)",
+    "attributionName": "OpenResume"
+  },
+  "demo": {
+    "name": "Jean Dupont",
+    "summary": "Ingénieur logiciel passionné par la création de produits exceptionnels que les gens aiment",
+    "phone": "123-456-7890",
+    "location": "Paris, France",
+    "url": "linkedin.com/in/jean-dupont",
+    "work1Company": "Société ABC",
+    "work1Title": "Ingénieur logiciel",
+    "work1Date": "Mai 2023 - Présent",
+    "work1Desc1": "Dirigé une équipe transversale de 5 ingénieurs développant une barre de recherche permettant à des milliers d'utilisateurs actifs quotidiens de rechercher du contenu sur toute la plateforme",
+    "work1Desc2": "Créé des animations de démo produit époustouflantes pour la page d'accueil augmentant le taux d'inscription de 20%",
+    "work1Desc3": "Écrit du code propre, modulaire et facile à maintenir tout en assurant 100% de couverture de tests",
+    "work2Company": "Organisation DEF",
+    "work2Title": "Stagiaire ingénieur logiciel",
+    "work2Date": "Été 2022",
+    "work2Desc1": "Réarchitecturé l'éditeur de contenu existant pour le rendre responsive mobile, entraînant une augmentation de 10% de l'engagement utilisateurs mobile",
+    "work2Desc2": "Créé une barre de progression pour aider les utilisateurs à suivre leur progression, augmentant la rétention de 15%",
+    "work2Desc3": "Découvert et corrigé 5 bugs dans la base de code existante pour améliorer l'expérience utilisateur",
+    "work3Company": "Université XYZ",
+    "work3Title": "Assistant de recherche",
+    "work3Date": "Été 2021",
+    "work3Desc1": "Conçu un nouvel algorithme NLP pour classification de texte résultant en 10% d'augmentation de précision",
+    "work3Desc2": "Compilé et présenté les résultats de recherche à un groupe de 20+ professeurs et étudiants",
+    "eduSchool": "Université XYZ",
+    "eduDegree": "Bachelor of Science en Informatique",
+    "eduDate": "Sep 2019 - Mai 2023",
+    "eduGpa": "3,8",
+    "eduDesc1": "1ère place au Hackathon Éducation 2022, 2ème place au Concours Health Tech 2023",
+    "eduDesc2": "Assistant d'enseignement pour Programmation pour le Web (2022 - 2023)",
+    "eduDesc3": "Cours : Programmation Orientée Objet (A+), Programmation pour le Web (A+), Cloud Computing (A), Introduction au Machine Learning (A-), Analyse d'Algorithmes (A-)",
+    "sectionWorkExperience": "EXPÉRIENCE PROFESSIONNELLE",
+    "sectionEducation": "FORMATION",
+    "sectionProject": "PROJETS",
+    "sectionSkills": "COMPÉTENCES",
+    "sectionCustom": "SECTION PERSONNALISÉE",
+    "projectName": "ResumeFlow",
+    "projectDate": "Printemps 2023",
+    "projectDesc1": "Créé et lancé une application web gratuite de création de CV permettant à des milliers d'utilisateurs de créer facilement des CV professionnels et décrocher l'emploi de leurs rêves",
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "Python",
+    "skill4": "TypeScript",
+    "skill5": "React",
+    "skill6": "C++",
+    "techSkills": "Tech : React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+    "softSkills": "Soft : Travail d'équipe, Résolution créative de problèmes, Communication, Esprit d'apprentissage, Agile"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "effectiveDate": "Date d'entrée en vigueur : juillet 2025",
+    "dataWeCollect": {
+      "title": "Données collectées",
+      "none": "Aucune.",
+      "description": "Le contenu de votre CV — nom, expérience, formation, compétences et tous les autres champs — est stocké exclusivement dans le localStorage de votre navigateur. Il ne touche jamais nos serveurs. Aucune création de compte, aucun email requis, aucun suivi du contenu du CV."
+    },
+    "analyticsAds": {
+      "title": "Analytique & Publicité",
+      "ym": {
+        "title": "Yandex Metrica / RSYA",
+        "desc": "Statistiques de trafic agrégées et anonymisées. Les adresses IP sont masquées. Vous pouvez vous opposer via Do Not Track du navigateur ou en désactivant JavaScript."
+      },
+      "cf": {
+        "title": "Cloudflare Web Analytics",
+        "desc": "Respect de la vie privée, pas de cookies, pas de données personnelles."
+      }
+    },
+    "thirdParty": {
+      "title": "Services tiers",
+      "fonts": {
+        "title": "Polices",
+        "desc": "Auto-hébergées sur notre domaine, aucune requête vers Google Fonts."
+      },
+      "github": {
+        "title": "GitHub",
+        "desc": "Uniquement si vous cliquez sur les liens \"View on GitHub\"."
+      }
+    },
+    "yourRights": {
+      "title": "Vos droits",
+      "description": "Comme nous ne stockons pas vos données, il n'y a rien à supprimer, exporter ou rectifier de notre côté. Vider le stockage de votre navigateur (ou utiliser l'option \"Clear data\" dans le builder) supprime toutes les données locales."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Questions : ",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Retour à ResumeFlow"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "effectiveDate": "Date d'effet : juillet 2025",
+    "service": {
+      "title": "Service",
+      "description": "ResumeFlow (resumeflow.fun) est un outil gratuit et open-source pour créer et parser des CV. Fourni \"tel quel\" sans garanties d'aucune sorte — explicites ou implicites."
+    },
+    "yourContent": {
+      "title": "Votre contenu",
+      "description": "Vous possédez vos données de CV. Nous n'en revendiquons aucun droit. Les données restent dans votre navigateur — nous ne les voyons pas, ne les stockons pas et ne les traitons pas sur nos serveurs."
+    },
+    "acceptableUse": {
+      "title": "Utilisation acceptable",
+      "1": "N'utilisez pas le parser pour extraire des informations personnelles de CV dont vous n'êtes pas propriétaire ou n'avez pas l'autorisation de traiter.",
+      "2": "Ne tentez pas de surcharger, décompiler ou contourner toute partie du service.",
+      "3": "N'utilisez pas le service à des fins illégales ou non autorisées."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "Le code source est sous licence MIT. Vous êtes libre de le forker, modifier, auto-héberger et redistribuer selon les termes de la licence."
+    },
+    "noLiability": {
+      "title": "Absence de responsabilité",
+      "description": "Nous ne sommes pas responsables des dommages découlant de l'utilisation ou de l'impossibilité d'utiliser le service, y compris les problèmes de formatage, erreurs de parsing, opportunités d'emploi manquées ou perte de données dans le stockage du navigateur."
+    },
+    "changes": {
+      "title": "Modifications",
+      "description": "Nous pouvons mettre à jour ces conditions. L'utilisation continue après modification vaut acceptation."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Retour à ResumeFlow"
+  }
+}

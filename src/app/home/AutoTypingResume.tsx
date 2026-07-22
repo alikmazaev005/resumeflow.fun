@@ -4,12 +4,13 @@ import { ResumePDF } from "components/Resume/ResumePDF";
 import { initialResumeState } from "lib/redux/resumeSlice";
 import { initialSettings } from "lib/redux/settingsSlice";
 import { ResumeIframeCSR } from "components/Resume/ResumeIFrame";
-import { START_HOME_RESUME, END_HOME_RESUME } from "home/constants";
+import { useT } from "lib/i18n/context";
+import { START_HOME_RESUME, getTranslatedEndResume } from "home/constants";
 import { makeObjectCharIterator } from "lib/make-object-char-iterator";
 import { useTailwindBreakpoints } from "lib/hooks/useTailwindBreakpoints";
 import { deepClone } from "lib/deep-clone";
 
-// countObjectChar(END_HOME_RESUME) -> ~1800 chars
+// countObjectChar(getTranslatedEndResume(t)) -> ~1800 chars
 const INTERVAL_MS = 50; // 20 Intervals Per Second
 const CHARS_PER_INTERVAL = 10;
 // Auto Typing Time:
@@ -20,9 +21,10 @@ const CHARS_PER_INTERVAL = 10;
 const RESET_INTERVAL_MS = 60 * 1000; // 60s
 
 export const AutoTypingResume = () => {
+  const t = useT();
   const [resume, setResume] = useState(deepClone(initialResumeState));
   const resumeCharIterator = useRef(
-    makeObjectCharIterator(START_HOME_RESUME, END_HOME_RESUME)
+    makeObjectCharIterator(START_HOME_RESUME, getTranslatedEndResume(t))
   );
   const hasSetEndResume = useRef(false);
   const { isLg } = useTailwindBreakpoints();
@@ -39,24 +41,24 @@ export const AutoTypingResume = () => {
         // Sometimes the iterator doesn't end on the last char,
         // so we manually set its end state here
         if (!hasSetEndResume.current) {
-          setResume(END_HOME_RESUME);
+          setResume(getTranslatedEndResume(t));
           hasSetEndResume.current = true;
         }
       }
     }, INTERVAL_MS);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [t]);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       resumeCharIterator.current = makeObjectCharIterator(
         START_HOME_RESUME,
-        END_HOME_RESUME
+        getTranslatedEndResume(t)
       );
       hasSetEndResume.current = false;
     }, RESET_INTERVAL_MS);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [t]);
 
   return (
     <>
@@ -68,12 +70,18 @@ export const AutoTypingResume = () => {
             fontSize: "12",
             formToHeading: {
               workExperiences: resume.workExperiences[0].company
-                ? "WORK EXPERIENCE"
+                ? t("demo.sectionWorkExperience")
                 : "",
-              educations: resume.educations[0].school ? "EDUCATION" : "",
-              projects: resume.projects[0].project ? "PROJECT" : "",
-              skills: resume.skills.featuredSkills[0].skill ? "SKILLS" : "",
-              custom: "CUSTOM SECTION",
+              educations: resume.educations[0].school
+                ? t("demo.sectionEducation")
+                : "",
+              projects: resume.projects[0].project
+                ? t("demo.sectionProject")
+                : "",
+              skills: resume.skills.featuredSkills[0].skill
+                ? t("demo.sectionSkills")
+                : "",
+              custom: t("demo.sectionCustom"),
             },
           }}
         />

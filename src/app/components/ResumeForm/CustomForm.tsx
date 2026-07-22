@@ -7,8 +7,10 @@ import {
   selectShowBulletPoints,
   changeShowBulletPoints,
 } from "lib/redux/settingsSlice";
+import { useT } from "lib/i18n/context";
 
 export const CustomForm = () => {
+  const t = useT();
   const custom = useAppSelector(selectCustom);
   const dispatch = useAppDispatch();
   const { descriptions } = custom;
@@ -28,10 +30,10 @@ export const CustomForm = () => {
       <div className="col-span-full grid grid-cols-6 gap-3">
         <div className="relative col-span-full">
           <BulletListTextarea
-            label="Custom Textbox"
+            label={t("form.custom.label")}
             labelClassName="col-span-full"
             name="descriptions"
-            placeholder="Bullet points"
+            placeholder={t("form.custom.placeholder")}
             value={descriptions}
             onChange={handleCustomChange}
             showBulletPoints={showBulletPoints}

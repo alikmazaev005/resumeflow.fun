@@ -2,9 +2,22 @@ import type { RootState } from "lib/redux/store";
 
 // Reference: https://dev.to/igorovic/simplest-way-to-persist-redux-state-to-localstorage-e67
 
-const LOCAL_STORAGE_KEY = "open-resume-state";
+const LOCAL_STORAGE_KEY = "resumeflow-state";
+const LEGACY_LOCAL_STORAGE_KEY = "open-resume-state";
+
+function migrateLegacyState() {
+  try {
+    const legacyState = localStorage.getItem(LEGACY_LOCAL_STORAGE_KEY);
+    if (legacyState && !localStorage.getItem(LOCAL_STORAGE_KEY)) {
+      localStorage.setItem(LOCAL_STORAGE_KEY, legacyState);
+    }
+  } catch {
+    // Legacy key may not exist or be inaccessible — ignore
+  }
+}
 
 export const loadStateFromLocalStorage = () => {
+  migrateLegacyState();
   try {
     const stringifiedState = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (!stringifiedState) return undefined;

@@ -12,8 +12,10 @@ import {
   changeShowBulletPoints,
   selectThemeColor,
 } from "lib/redux/settingsSlice";
+import { useT } from "lib/i18n/context";
 
 export const SkillsForm = () => {
+  const t = useT();
   const skills = useAppSelector(selectSkills);
   const dispatch = useAppDispatch();
   const { featuredSkills, descriptions } = skills;
@@ -40,10 +42,10 @@ export const SkillsForm = () => {
       <div className="col-span-full grid grid-cols-6 gap-3">
         <div className="relative col-span-full">
           <BulletListTextarea
-            label="Skills List"
+            label={t("form.skills.listLabel")}
             labelClassName="col-span-full"
             name="descriptions"
-            placeholder="Bullet points"
+            placeholder={t("form.skills.listPlaceholder")}
             value={descriptions}
             onChange={handleSkillsChange}
             showBulletPoints={showBulletPoints}
@@ -57,12 +59,11 @@ export const SkillsForm = () => {
         </div>
         <div className="col-span-full mb-4 mt-6 border-t-2 border-dotted border-gray-200" />
         <InputGroupWrapper
-          label="Featured Skills (Optional)"
+          label={t("form.skills.featuredLabel")}
           className="col-span-full"
         >
           <p className="mt-2 text-sm font-normal text-gray-600">
-            Featured skills is optional to highlight top skills, with more
-            circles mean higher proficiency.
+            {t("form.skills.featuredText")}
           </p>
         </InputGroupWrapper>
 
@@ -75,7 +76,7 @@ export const SkillsForm = () => {
             setSkillRating={(newSkill, newRating) => {
               handleFeaturedSkillsChange(idx, newSkill, newRating);
             }}
-            placeholder={`Featured Skill ${idx + 1}`}
+            placeholder={t("form.skills.featuredPlaceholder") + " " + (idx + 1)}
             circleColor={themeColor}
           />
         ))}

@@ -1,0 +1,435 @@
+{
+  "nav": {
+    "ariaHeader": "Seitenkopf",
+    "ariaNav": "Seitennavigationsleiste",
+    "logoSrLabel": "ResumeFlow",
+    "logoAlt": "ResumeFlow-Logo",
+    "builder": "Ersteller",
+    "parser": "Parser"
+  },
+  "hero": {
+    "titleLine1": "Erstellen Sie einen sauberen, professionellen",
+    "titleLine2": "Lebenslauf in Minuten",
+    "subtitle": "Kostenlos, Open Source, Privacy-First. Kein Konto nötig — Ihre Daten bleiben im Browser.",
+    "cta": "Loslegen",
+    "noSignup": "Keine Registrierung erforderlich",
+    "existingResume": "Haben Sie schon einen Lebenslauf? Prüfen Sie seine ATS-Lesbarkeit mit dem",
+    "parserLink": "Lebenslauf-Parser"
+  },
+  "steps": {
+    "title": "Wie es funktioniert",
+    "step1Title": "Importieren oder neu starten",
+    "step1Text": "PDF hochladen für Auto-Ausfüllen oder von Grund auf neu erstellen",
+    "step2Title": "Vorschau & bearbeiten",
+    "step2Text": "Formatiertes Ergebnis sofort sehen — Inhalt, Schriften, Abstände anpassen",
+    "step3Title": "Herunterladen & bewerben",
+    "step3Text": "Polierten PDF exportieren, der ATS-Prüfungen besteht"
+  },
+  "features": {
+    "alt": "ResumeFlow-Funktion",
+    "freeTitle": "Für immer kostenlos",
+    "freeText": "Keine Abos, keine gesperrten Features, keine Upsells. Jedes Template, jeder Font, jeder Export ist gratis.",
+    "usTitle": "ATS-Ready by Default",
+    "usText": "Einspaltiges Layout, Standard-Sektionsreihenfolge, keine Fotos/Grafiken — alles strukturiert für Greenhouse, Lever, Workday und andere ATS.",
+    "privacyTitle": "Local-First Privacy",
+    "privacyText": "Ihre Lebenslaufdaten verlassen nie Ihren Browser. Gespeichert in localStorage, kein Server, kein Account, kein Tracking.",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "Basiert auf dem OpenResume-Projekt. Voller Quellcode auf GitHub — prüfen, forken, beitragen.",
+    "openSourceLink": "Auf GitHub ansehen"
+  },
+  "testimonials": {
+    "title": "Warum Leute ResumeFlow wählen",
+    "metrics": [
+      {
+        "value": "Tausende",
+        "label": "Lebensläufe erstellt"
+      },
+      {
+        "value": "ATS-ready",
+        "label": "standardmäßig"
+      },
+      {
+        "value": "0",
+        "label": "Daten auf unseren Servern"
+      }
+    ],
+    "personas": [
+      {
+        "icon": "graduation-cap",
+        "title": "Studierende & Absolventen",
+        "description": "Erster Lebenslauf, Praktika, Junior-Stellen — sauberes Format, das jeden ATS passiert"
+      },
+      {
+        "icon": "briefcase",
+        "title": "Karrierewechsler",
+        "titleHighlight": "IT / Tech",
+        "description": "Transferierbare Skills, Projekte und Zertifikate in parser-freundlichem Layout hervorheben"
+      },
+      {
+        "icon": "user-check",
+        "title": "Senior Professionals",
+        "description": "15+ Jahre Erfahrung in knackigem, scannbarem Lebenslauf — fertig in 5 Minuten"
+      }
+    ],
+    "parserCTA": {
+      "text": "Haben Sie schon einen Lebenslauf?",
+      "linkText": "Im Parser prüfen →",
+      "href": "/resume-parser"
+    }
+  },
+  "qa": {
+    "title": "Häufige Fragen",
+    "q1": "Was ist ein Lebenslauf-Ersteller und wie unterscheidet er sich von einer Vorlage?",
+    "a1p1": "Eine Vorlage (Word, Google Docs) gibt eine leere Struktur — Sie formatieren jeden Abschnitt manuell, justieren Abstände, korrigieren Aufzählungen. Ein Lebenslauf-Ersteller übernimmt das Layout automatisch: Sie geben Inhalte ein, er rendert einen konsistenten, druckfertigen PDF.",
+    "a1p2": "ResumeFlow geht weiter: Er erzwingt ATS-freundliche Struktur (eine Spalte, Standard-Überschriften, keine Fotos), lässt Sie Schriften und Abstände per Klick tauschen, und enthält einen eingebauten Parser, damit Sie prüfen können, wie ein ATS Ihre Datei liest — bevor Sie sich bewerben.",
+    "q2": "Wie unterscheidet sich ResumeFlow von anderen kostenlosen Erstellern wie Reactive Resume oder FlowCV?",
+    "a2p1": "Die meisten Ersteller optimieren für visuelle Flexibilität — mehrere Spalten, Grafiken, Farbthemen. ResumeFlow optimiert für Parsebarkeit:",
+    "a2p1After": "Das zeichnet uns aus:",
+    "a2Feature1Title": "1. Streng ATS-first Design",
+    "a2Feature1Text": "Nur eine Spalte. Standard-Sektionsreihenfolge. Kein Foto-Feld. Keine dekorativen Elemente, die Parser verwirren. Jede Standard-Entscheidung ist gegen Greenhouse, Lever, Workday validiert.",
+    "a2Feature2Title": "2. Echtes Local-Only-Speichern",
+    "a2Feature2Text": "Keine Account-Erstellung, keine Cloud-Sync, keine Analytics an Lebenslauf-Inhalten. Daten leben im localStorage des Browsers. Sie können es sogar offline nutzen nach dem ersten Laden.",
+    "q3": "Wie verarbeitet ResumeFlow meine Lebenslaufdaten?",
+    "a3p1": "Alle Daten, die Sie in den Ersteller eingeben, werden lokal in Ihrem Browser verarbeitet und gespeichert — sie werden nie an einen Server gesendet oder dort gespeichert. Das bedeutet, niemand, auch wir nicht, hat Zugriff auf Ihre Lebenslaufinhalte. Sie können den Tab schließen und später weitermachen — Ihre Daten bleiben auf Ihrem Gerät, bis Sie sie löschen oder den Browser-Cache leeren. Der einzige Moment, in dem Informationen den Browser verlassen, ist, wenn Sie auf \"Lebenslauf herunterladen\" klicken.",
+    "q4": "Wie kann der Parser helfen, wenn ich bereits einen Lebenslauf habe?",
+    "a4p1": "Wenn Sie bereits einen Lebenslauf als PDF oder Word haben, müssen Sie ihn nicht von Grund auf neu schreiben — laden Sie ihn in den Parser hoch, und der Service zeigt, wie ein Applicant Tracking System (ATS), das die meisten großen Firmen nutzen, ihn liest. Der Parser markiert Formatierungsprobleme, die dem menschlichen Auge unsichtbar sind, aber den Bot daran hindern, Ihre Erfahrung und Skills korrekt zu lesen — wie Tabellen, Spalten oder nicht-standardische Schriften, die dazu führen können, dass Ihr Lebenslauf abgelehnt wird, bevor ein Recruiter ihn je sieht."
+  },
+  "import": {
+    "headingNew": "Daten aus einem bestehenden Lebenslauf importieren",
+    "or": "oder",
+    "noResumeHeading": "Noch keinen Lebenslauf?",
+    "createFromScratch": "Von Grund auf neu erstellen",
+    "returningHeading": "Sie haben Daten aus einer vorherigen Sitzung im Browser gespeichert",
+    "continueWhereLeftOff": "Fortfahren, wo ich aufhörte",
+    "overrideHeading": "Daten mit neuem Lebenslauf überschreiben",
+    "dropzoneBrowse": "PDF-Datei durchsuchen oder hier ablegen",
+    "dropzonePrivacy": "Dateidaten werden lokal genutzt und verlassen nie Ihren Browser",
+    "dropzoneRemove": "Datei entfernen",
+    "dropzoneBrowseFile": "Datei durchsuchen",
+    "dropzoneError": "Nur PDF-Dateien werden unterstützt",
+    "dropzoneImport": "Importieren und fortfahren",
+    "dropzoneNoteImport": "Hinweis: Import funktioniert am besten bei einspaltigen Lebensläufen",
+    "dropzoneNoteParser": "Hinweis: Parser funktioniert am besten bei einspaltigen Lebensläufen",
+    "dropzoneAltPdf": "PDF hinzufügen"
+  },
+  "form": {
+    "profile": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Max Mustermann",
+      "summaryLabel": "Berufsziel",
+      "summaryPlaceholder": "Unternehmer und Pädagoge mit Leidenschaft, Bildung für alle kostenlos zugänglich zu machen",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "hallo@beispiel.de",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "(123)456-7890",
+      "websiteLabel": "Website",
+      "websitePlaceholder": "linkedin.com/in/max-mustermann",
+      "locationLabel": "Standort",
+      "locationPlaceholder": "Berlin, Deutschland"
+    },
+    "work": {
+      "addButton": "Job hinzufügen",
+      "deleteTooltip": "Job löschen",
+      "companyLabel": "Unternehmen",
+      "companyPlaceholder": "Musterfirma GmbH",
+      "jobTitleLabel": "Position",
+      "jobTitlePlaceholder": "Softwareentwickler",
+      "dateLabel": "Datum",
+      "datePlaceholder": "Juni 2022 - Heute",
+      "descriptionLabel": "Beschreibung",
+      "descriptionPlaceholder": "Stichpunkte"
+    },
+    "education": {
+      "addButton": "Bildungseinrichtung hinzufügen",
+      "deleteTooltip": "Bildungseinrichtung löschen",
+      "schoolLabel": "Schule / Hochschule",
+      "schoolPlaceholder": "Technische Universität München",
+      "dateLabel": "Datum",
+      "datePlaceholder": "Mai 2018",
+      "degreeLabel": "Abschluss & Studienfach",
+      "degreePlaceholder": "Bachelor of Science in Informatik",
+      "gpaLabel": "Notendurchschnitt (GPA)",
+      "gpaPlaceholder": "1,3",
+      "additionalLabel": "Zusätzliche Informationen (optional)",
+      "additionalPlaceholder": "Freier Textbereich für zusätzliche Aktivitäten, Kurse, Auszeichnungen usw."
+    },
+    "project": {
+      "addButton": "Projekt hinzufügen",
+      "deleteTooltip": "Projekt löschen",
+      "nameLabel": "Projektname",
+      "namePlaceholder": "ResumeFlow",
+      "dateLabel": "Datum",
+      "datePlaceholder": "Winter 2022",
+      "descriptionLabel": "Beschreibung",
+      "descriptionPlaceholder": "Stichpunkte"
+    },
+    "skills": {
+      "listLabel": "Fähigkeitenliste",
+      "listPlaceholder": "Stichpunkte",
+      "featuredLabel": "Hervorgehobene Fähigkeiten (optional)",
+      "featuredText": "Hervorgehobene Fähigkeiten sind optional, um die wichtigsten Skills hervorzuheben. Je mehr Kreise, desto höher die Kenntnisstufe.",
+      "featuredPlaceholder": "Hervorgehobene Fähigkeit {n}"
+    },
+    "custom": {
+      "label": "Benutzerdefiniertes Textfeld",
+      "placeholder": "Stichpunkte"
+    },
+    "form": {
+      "hideSection": "Abschnitt ausblenden",
+      "showSection": "Abschnitt einblenden",
+      "moveUp": "Nach oben verschieben",
+      "moveDown": "Nach unten verschieben",
+      "hideBullets": "Stichpunkte ausblenden",
+      "showBullets": "Stichpunkte einblenden"
+    },
+    "theme": {
+      "title": "Lebenslauf-Einstellungen",
+      "themeColor": "Designfarbe",
+      "fontFamily": "Schriftart",
+      "fontSize": "Schriftgröße (pt)",
+      "documentSize": "Dokumentgröße",
+      "compact": "Kompakt",
+      "standard": "Standard",
+      "large": "Groß",
+      "letter": "Letter",
+      "letterSub": "(USA, Kanada)",
+      "a4": "A4",
+      "a4Sub": "(andere Länder)"
+    }
+  },
+  "controlBar": {
+    "autoscale": "Automatische Skalierung",
+    "download": "Lebenslauf herunterladen"
+  },
+  "parser": {
+    "pageTitle": "ATS Lebenslauf-Parser Test",
+    "pageDescription": "Laden Sie einen Lebenslauf-PDF hoch, um zu sehen, was genau ein Applicant Tracking System extrahiert. Je mehr Felder korrekt geparsed werden, desto besser Ihre Chancen, den automatischen Screening zu bestehen.",
+    "exampleTitle": "Beispiel {n}",
+    "example1Desc": "Beispiel-Lebenslauf vom Career Center der University of La Verne —",
+    "example1Link": "Quelle anzeigen",
+    "example2Desc": "Erstellt mit ResumeFlow Lebenslauf-Ersteller —",
+    "example2Link": "Quelle anzeigen",
+    "addResumeBefore": "Oder",
+    "addResumeBold": "testen Sie Ihren eigenen Lebenslauf",
+    "addResumeAfter": ", um zu prüfen, wie gut er geparsed wird. Mindestens Ihr Name und Ihre E-Mail sollten genau erkannt werden.",
+    "sectionTitle": "Parsing-Ergebnisse",
+    "selectExample": "Wählen Sie ein Beispiel oder laden Sie Ihren Lebenslauf hoch, um die Parsergebnisse zu sehen.",
+    "loading": "PDF wird geladen und analysiert...",
+    "tableProfile": "Profil",
+    "tableName": "Name",
+    "tableEmail": "E-Mail",
+    "tablePhone": "Telefon",
+    "tableLocation": "Standort",
+    "tableLink": "Link",
+    "tableSummary": "Zusammenfassung",
+    "tableEducation": "Ausbildung",
+    "tableSchool": "Schule",
+    "tableDegree": "Abschluss",
+    "tableGpa": "Notendurchschnitt",
+    "tableDate": "Datum",
+    "tableDescriptions": "Beschreibungen",
+    "tableWorkExperience": "Berufserfahrung",
+    "tableCompany": "Unternehmen",
+    "tableJobTitle": "Position",
+    "tableProjects": "Projekte",
+    "tableProject": "Projekt",
+    "tableSkills": "Fähigkeiten"
+  },
+  "algorithm": {
+    "title": "Wie der Parser funktioniert",
+    "intro": "Technischer Überblick der ResumeFlow-Parsing-Pipeline — vier Stufen von rohem PDF zu strukturiertem JSON. Für einspaltige englische Lebensläufe.",
+    "step1Title": "Schritt 1. Texelemente aus PDF extrahieren",
+    "step1p1": "PDF ist ein Binärformat per",
+    "step1IsoLink": "ISO 32000 Spezifikation",
+    "step1p1After": ". Rohinhalt ist kodiert; wir nutzen Mozillas",
+    "step1PdfjsLink": "pdf.js",
+    "step1p2After": "zum Dekodieren und Ziehen jedes Texelements mit Metadaten (x/y Position, Schriftgewicht, Zeilenumbrüche).",
+    "step1p3": "Die Tabelle unten zeigt {n} extrahierte Texelemente. Jedes trägt Inhalt plus Positionsmetadaten — Koordinaten relativ zum Seitenursprung (unten-links = 0,0), Bold-Flag, Zeilenumbruch-Flag.",
+    "step1TableHeader": ["#", "Textinhalt", "Metadaten"],
+    "step2Title": "Schritt 2. Elemente zu Zeilen gruppieren",
+    "step2Intro": "Roh-Elemente haben zwei Probleme:",
+    "step2Issue1Title": "Problem 1: Fragmentierung",
+    "step2Issue1Text": "Ein logischer Token — wie Telefonnummer \"(123) 456-7890\" — splitet oft über mehrere Elemente wegen Font-Wechseln oder PDF-Kodierungs-Eigenheiten.",
+    "step2Solution1Title": "Fix:",
+    "step2Solution1Text": "Angrenzende Elemente mergen, wenn horizontale Lücke kleiner als durchschnittliche Zeichenbreite. Distanz = RechterElementX₁ − LinkerElementX₂. Durchschnittsbreite = Summe Elementbreiten / Summe Zeichen (Bold-Marker und Zeilenumbrüche ausgeschlossen).",
+    "step2Solution1Formula": "Distanz = RechterElementX₁ - LinkerElementX₂",
+    "step2Solution1After": "",
+    "step2Issue2Title": "Problem 2: Fehlender Kontext",
+    "step2Issue2Text": "Menschen lesen zeilenweise, nutzen Boldness und Proximity für Gruppierung. Elemente haben diese Struktur nicht — flache Liste.",
+    "step2Solution2Title": "Fix:",
+    "step2Solution2Text": "Zeilen rekonstruieren durch Clustering von Elementen mit ähnlichen Y-Koordinaten, dann Links-nach-Rechts-Ordnung. Stellt visuelle Lesereihenfolge her.",
+    "step2TableHeader": ["Zeilen", "Zeileninhalt"],
+    "step3Title": "Schritt 3. Zeilen in Sektionen gruppieren",
+    "step3p1": "Sektionsüberschriften per Heuristik identifizieren: bold + kurzer Text. Alles nach einer Überschrift gehört zu ihr bis zur nächsten.",
+    "step3p2": "Erkannte Sektionen ({n} total): Überschriften in",
+    "step3p2Bold": "fett",
+    "step3p2After": ", Mitgliedszeilen farbcodiert nach Sektion.",
+    "step3TableHeader": ["Zeilen", "Zeileninhalt"],
+    "step3ProfileLabel": "PROFIL",
+    "step4Title": "Schritt 4. Strukturierte Felder extrahieren",
+    "step4Sub1": "Feature Scoring",
+    "step4Sub1Text": "Für jedes Zielfeld (Name, Email, Telefon) werden Kandidat-Zeilen gegen Feature-Funktionen gescort. Höchstwert gewinnt.",
+    "step4TableHeader": ["Lebenslauf-Attribut", "Top-Kandidat (Score)", "Andere Kandidaten"],
+    "step4Name": "Name",
+    "step4Email": "E-Mail",
+    "step4Phone": "Telefon",
+    "step4DynamicText": "Im hochgeladenen Lebenslauf ist das Name-Feld wahrscheinlich \"{name}\" mit Feature-Score {score} von 5.",
+    "step4Sub2": "Feature Functions",
+    "step4Sub3": "Core Feature Functions",
+    "step4Sub4": "Special Case: Subsections",
+    "step4FeatureSetsTableTitle": "Name Feature Set",
+    "step4FeatureSetsTableHeader": ["Feature Function", "Score Impact"],
+    "step4Feature1": "Buchstaben, Leerzeichen, Punkte nur",
+    "step4Feature2": "Bold-Formatierung",
+    "step4Feature3": "Alles Großbuchstaben",
+    "step4Feature4": "Enthält @",
+    "step4Feature5": "Enthält Ziffern",
+    "step4Feature6": "Enthält Komma",
+    "step4Feature7": "Enthält Slash",
+    "step4ScoreMatchEmail": "−4 (matcht Email-Pattern)",
+    "step4ScoreMatchPhone": "−4 (matcht Telefon-Pattern)",
+    "step4ScoreMatchAddress": "−4 (matcht Adress-Pattern)",
+    "step4ScoreMatchUrl": "−4 (matcht URL-Pattern)",
+    "step4Score3": "+3",
+    "step4Score2": "+2",
+    "step4CoreTableHeader": ["Attribute", "Core Feature", "Regex"],
+    "step4CoreName": "Buchstaben, Leerzeichen, Punkte nur",
+    "step4CoreEmail": "Email-Format: Nicht-Leerzeichen @ Nicht-Leerzeichen . Nicht-Leerzeichen",
+    "step4CorePhone": "Telefon: (xxx) xxx-xxxx Klammern/Bindestrich optional",
+    "step4CoreLocation": "Stadt, BL Format",
+    "step4CoreUrl": "URL-Format: domain.tld/path",
+    "step4CoreSchool": "Enthält Schul-Schlüsselwort (College, University, School)",
+    "step4CoreDegree": "Enthält Abschluss-Schlüsselwort (Associate, Bachelor, Master, PhD)",
+    "step4CoreGpa": "GPA-Format: x.xx",
+    "step4CoreDate": "Datum-Schlüsselwörter: Jahr, Monat, Saison, Present",
+    "step4CoreJobTitle": "Enthält Titel-Schlüsselwort (Analyst, Engineer, Intern, Manager)",
+    "step4CoreCompany": "Bold oder matcht nicht Titel/Datum",
+    "step4CoreProject": "Bold oder matcht nicht Datum",
+    "conclusion": "Das deckt die ResumeFlow-Parsing-Pipeline ab.",
+    "attribution": "Basierend auf dem OpenResume-Parser von Xitang Zhao (Juni 2023)",
+    "attributionName": "OpenResume"
+  },
+  "demo": {
+    "name": "Max Mustermann",
+    "summary": "Softwareentwickler mit Leidenschaft für außergewöhnliche Produkte, die Menschen lieben",
+    "phone": "123-456-7890",
+    "location": "NYC, NY",
+    "url": "linkedin.com/in/max-mustermann",
+    "work1Company": "ABC Unternehmen",
+    "work1Title": "Softwareentwickler",
+    "work1Date": "Mai 2023 - Heute",
+    "work1Desc1": "Leitung eines funktionsübergreifenden Teams von 5 Entwicklern bei der Entwicklung einer Suchleiste, die tausenden täglich aktiven Nutzern ermöglicht, Inhalte auf der gesamten Plattform zu durchsuchen",
+    "work1Desc2": "Erstellung beeindruckender Produktdemo-Animationen für die Startseite, die die Anmelderate um 20 % steigern",
+    "work1Desc3": "Schreiben von sauberem, modularem und wartbarem Code bei gleichzeitiger Sicherstellung von 100 % Testabdeckung",
+    "work2Company": "DEF Organisation",
+    "work2Title": "Praktikant Softwareentwicklung",
+    "work2Date": "Sommer 2022",
+    "work2Desc1": "Neuarchitektur des vorhandenen Content-Editors für mobile Responsivität, was zu einer 10 %igen Steigerung des mobilen Benutzerengagements führte",
+    "work2Desc2": "Erstellung eines Fortschrittsbalkens, der Benutzern hilft, ihren Fortschritt zu verfolgen, was die Benutzerbindung um 15 % steigerte",
+    "work2Desc3": "Entdeckung und Behebung von 5 Fehlern in der bestehenden Codebasis zur Verbesserung der Benutzererfahrung",
+    "work3Company": "XYZ Universität",
+    "work3Title": "Forschungsassistent",
+    "work3Date": "Sommer 2021",
+    "work3Desc1": "Entwicklung eines neuen NLP-Algorithmus zur Textklassifikation, der eine 10 %ige Genauigkeitssteigerung erzielt",
+    "work3Desc2": "Zusammenstellung und Präsentation von Forschungsergebnissen vor einer Gruppe von über 20 Fakultätsmitgliedern und Studierenden",
+    "eduSchool": "XYZ Universität",
+    "eduDegree": "Bachelor of Science in Informatik",
+    "eduDate": "Sep. 2019 - Mai 2023",
+    "eduGpa": "1,3",
+    "eduDesc1": "1. Platz beim Education Hackathon 2022, 2. Platz beim Health Tech Competition 2023",
+    "eduDesc2": "Tutor für Programmierung für das Web (2022 - 2023)",
+    "eduDesc3": "Kursarbeit: Objektorientierte Programmierung (1,0), Programmierung für das Web (1,0), Cloud Computing (1,3), Einführung in Maschinelles Lernen (1,7), Algorithmenanalyse (1,7)",
+    "sectionWorkExperience": "BERUFSERFAHRUNG",
+    "sectionEducation": "AUSBILDUNG",
+    "sectionProject": "PROJEKTE",
+    "sectionSkills": "KENNTNISSE",
+    "sectionCustom": "EIGENER ABSCHNITT",
+    "projectName": "ResumeFlow",
+    "projectDate": "Frühjahr 2023",
+    "projectDesc1": "Erstellung und Veröffentlichung einer kostenlosen Web-App zur Lebenslauferstellung, die tausenden Benutzern ermöglicht, mühelos professionelle Lebensläufe zu erstellen und ihre Traumjobs zu bekommen",
+    "skill1": "HTML",
+    "skill2": "CSS",
+    "skill3": "Python",
+    "skill4": "TypeScript",
+    "skill5": "React",
+    "skill6": "C++",
+    "techSkills": "Technologien: React Hooks, GraphQL, Node.js, SQL, Postgres, NoSql, Redis, REST API, Git",
+    "softSkills": "Soft Skills: Teamarbeit, kreative Problemlösung, Kommunikation, Lernbereitschaft, Agilität"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "effectiveDate": "Gültig ab: Juli 2025",
+    "dataWeCollect": {
+      "title": "Welche Daten wir sammeln",
+      "none": "Keine.",
+      "description": "Ihre Lebenslaufdaten — Name, Erfahrung, Ausbildung, Skills und alle anderen Felder — werden ausschließlich im localStorage Ihres Browsers gespeichert. Sie erreichen niemals unsere Server. Keine Registrierung, keine E-Mail, kein Tracking der Lebenslaufinhalte."
+    },
+    "analyticsAds": {
+      "title": "Analytik & Werbung",
+      "ym": {
+        "title": "Yandex Metrica / RSYA",
+        "desc": "Aggregierte, anonymisierte Verkehrstatistiken. IP-Adressen werden maskiert. Opt-out über Do Not Track oder Deaktivierung von JavaScript möglich."
+      },
+      "cf": {
+        "title": "Cloudflare Web Analytics",
+        "desc": "Privacy-first, keine Cookies, keine persönlichen Daten."
+      }
+    },
+    "thirdParty": {
+      "title": "Drittanbieter-Dienste",
+      "fonts": {
+        "title": "Schriftarten",
+        "desc": "Selbst gehostet auf unserer Domain, keine Anfragen an Google Fonts."
+      },
+      "github": {
+        "title": "GitHub",
+        "desc": "Nur wenn Sie auf \"View on GitHub\" Links klicken."
+      }
+    },
+    "yourRights": {
+      "title": "Ihre Rechte",
+      "description": "Da wir Ihre Daten nicht speichern, gibt es auf unserer Seite nichts zu löschen, exportieren oder berichtigen. Das Löschen Ihres Browser-Speichers (oder die Nutzung der \"Clear data\" Option im Builder) entfernt alle lokalen Daten."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Fragen: ",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Zurück zu ResumeFlow"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "effectiveDate": "Gültig ab: Juli 2025",
+    "service": {
+      "title": "Dienst",
+      "description": "ResumeFlow (resumeflow.fun) ist ein kostenloses Open-Source-Tool zum Erstellen und Parsen von Lebensläufen. Bereitgestellt \"wie es ist\" ohne Gewährleistungen jeglicher Art — ausdrücklich oder stillschweigend."
+    },
+    "yourContent": {
+      "title": "Ihre Inhalte",
+      "description": "Sie besitzen Ihre Lebenslaufdaten. Wir erheben keinerlei Ansprüche darauf. Daten bleiben in Ihrem Browser — wir sehen, speichern oder verarbeiten sie nicht auf unseren Servern."
+    },
+    "acceptableUse": {
+      "title": "Akzeptable Nutzung",
+      "1": "Nutzen Sie den Parser nicht, um persönliche Informationen aus fremden Lebensläufen ohne Erlaubnis zu extrahieren.",
+      "2": "Versuchen Sie nicht, den Service zu überlasten, zurückzuentwickeln oder zu umgehen.",
+      "3": "Nutzen Sie den Dienst nicht für illegale oder nicht autorisierte Zwecke."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "Der Quellcode ist unter MIT lizenziert. Sie sind frei, ihn zu forken, zu modifizieren, selbst zu hosten und gemäß der Lizenz weiterzuverbreiten."
+    },
+    "noLiability": {
+      "title": "Keine Haftung",
+      "description": "Wir haften nicht für Schäden aus der Nutzung oder Nichtverfügbarkeit des Dienstes, einschließlich Formatierungsproblemen, Parsing-Fehlern, verpassten Jobchancen oder Datenverlust im Browser-Speicher."
+    },
+    "changes": {
+      "title": "Änderungen",
+      "description": "Wir können diese Bedingungen aktualisieren. Fortgesetzte Nutzung nach Änderungen gilt als Zustimmung."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "hello@resumeflow.fun"
+    },
+    "backHome": "← Zurück zu ResumeFlow"
+  }
+}
