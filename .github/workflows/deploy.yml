@@ -23,6 +23,8 @@ jobs:
 
       - run: npm run build
 
+      - run: ls -la && ls -la out/ || echo "NO OUT DIR"
+
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy out --project-name=resumeflow --branch=production
         env:
